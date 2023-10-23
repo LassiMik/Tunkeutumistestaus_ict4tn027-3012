@@ -14,6 +14,8 @@ Seuraavaksi latasin wiresharkin komennolla
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/28214eb1-2080-41c9-b8fa-dbace1494005)
 
+Valitsin "no", suositusten mukaan
+
 Törmäsin seuraavaan varoitukseen yrittäessäni käyttää wiresharkkia
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/ecd6979e-7569-48f7-a00e-3c932db5342c)
