@@ -42,5 +42,13 @@ Pari riviä alempaa löysin vastauksen omaan verkkoliikennepyyntööni
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f164253d-55e0-423c-a35b-f2a7aaa3753c)
 
+## Loppusanat
 
+En ole aikaisemmin käyttänyt wiresharkia. Testieni perusteella wiresharkilla voi ainakin monitoroida kaikkea oman tietokoneen verkkoliikennettä. Wiresharkia käynnistäessä valikossa oli monia eri vaihtoehtoja, joten monitoroitia voi varmaankin rajata tarkemmaksi tarvittaessa. 
+
+## Lähteet
+
+ - wiresharkin lataus https://askubuntu.com/questions/700712/how-to-install-wireshark
+
+ - wiresharkin käyttö https://www.wireshark.org/docs/wsug_html_chunked/ChCustCommandLine.html
 
