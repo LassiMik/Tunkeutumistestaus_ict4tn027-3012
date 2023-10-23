@@ -32,8 +32,15 @@ Protocol kertoo ip osoitteen tietoliikenneprotokollan, kuvasta näkyy
  - TCP (Transmission Control Protocol) sekä 
  - QUIC (Quick UPD Internet Connections
 
+Löysin myös hakuselaimen lähettämän verkkoliikennepyynnön 
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/85ddd3c5-8cc5-4e97-97cb-c42291eb748b)
 
+Pyyntö lähettää tiedon ip-osoitteeseen 8.8.8.8 ja käyttää DNS tietoliikenneprotokollaa. Length kertoo myös pyynnön pituuden sekä info lisäkohta kertoo lisätietoa kyseisestä liikenteestä. 
+
+Pari riviä alempaa löysin vastauksen omaan verkkoliikennepyyntööni 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f164253d-55e0-423c-a35b-f2a7aaa3753c)
 
 
 
