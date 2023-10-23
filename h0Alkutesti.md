@@ -28,7 +28,7 @@ Valitsin valikosta "any" kohdan ja menin firefox selaimella youtubeen
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/09827eff-5a86-46c5-985d-b66fbd98fb24)
 
-Wireshark on kuvan ottamisen hetkellä tulostanut jo 3158 riviä verkkoliikennettä virtuaalikoneeseen ja virtuaalikoneesta ulos. Source on ip osoite josta tieto tulee tai johon tieto lähtee. Kuvasta näkee, että virtuaalikone kommunikoi youtuben kanssa, sillä yksi ip-osoite lähtettää tiedon, jonka jälkeen samaan ip-osoitteeseen tulee vastaus. Ip-osoitteista lyhyempi .15 loppuinen osoite on virtuaalikoneeni ip-osoite ja pidempi .236 loppuinen on youtuben palvelimen ip-osoite.
+Wireshark on kuvan ottamisen hetkellä tulostanut jo 3158 riviä verkkoliikennettä virtuaalikoneeseen ja virtuaalikoneesta ulos. Source on ip-osoite josta tieto tulee tai johon tieto lähtee. Kuvasta näkee, että virtuaalikone kommunikoi youtuben kanssa, sillä yksi ip-osoite lähtettää tiedon, jonka jälkeen samaan ip-osoitteeseen tulee vastaus. Ip-osoitteista lyhyempi .15 loppuinen osoite on virtuaalikoneeni ip-osoite ja pidempi .236 loppuinen on youtuben palvelimen ip-osoite.
 
 Protocol kertoo ip osoitteen tietoliikenneprotokollan, kuvasta näkyy 
  - TCP (Transmission Control Protocol) sekä 
