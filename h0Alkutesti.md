@@ -22,6 +22,12 @@ Törmäsin seuraavaan varoitukseen yrittäessäni käyttää wiresharkkia
 
 Toimin ohjeiden mukaan ja sain wiresharkin auki
 
+## wiresharkin käyttö
+
+Avasin wiresharkin komennolla
+
+    wireshark
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/1dcecd7a-4326-4abc-84fa-476c42a7cc4f)
 
 Valitsin valikosta "any" kohdan ja menin firefox selaimella youtubeen
