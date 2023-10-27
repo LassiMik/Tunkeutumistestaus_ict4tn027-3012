@@ -5,6 +5,35 @@
 Santos et al: 
 Tiedustelu on onnistuneen tunkeutumisen tärkein osa. Tiedustelun tarkoitus on kartoittaa hyökättävän kohteen heikkoudet. 
 
+## a) Over The Wire: Bandit kolme ensimmäistä tasoa
+
+Tehtävän alussa sivusto kertoo helpot ohjeet miten päästä eteenpäin tehtävissä, jos jää jumiin. Sivusto muistuttaa esimerkiksi man komennon käytöstä, joka kertoo jokaisen komennon käyttötavan. 
+
+### Tehtävä 0
+
+Tehtävässä pitää opetella käyttämään SSH komentoa ja ottaa etäyhteys komennon avulla tehtäväsivulle. Tehtävän annossa annetaan nettiosoite, johon yhteys otetaan sekä käyttäjätunnus ja salasana.
+
+Käytin SSH komentoa etäyhteyden saamiseen.
+
+        ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+ssh komennossa laitoin annetun käyttäjätunnuksen @ palvelimen osoite ja -p tarkentaakseni portin johon yhdistän.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f93fbbac-cd6f-46ac-a1ae-e5080f17d2c0)
+
+Pääsin palvelimelle.
+
+## tehtävä 1 
+
+Tämän tehtävän tavoitteena on tarkastella ls komennolla bandit0 käyttäjän tiedostohakemistoa. Tiedostohakemiston readme tiedostosta löytyy salasana, jolla kirjaudutaan bandit1 käyttäjälle.
+Aloitin tehtävän komennolla ls, jonka avulla löysin readme tiedoston. Seuraavaksi tarkastelin readme tiedoston sisältöä cat komennolla.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/fe98081f-8381-437e-aec2-9363914c9cd7)
+
+readme tiedoston sisältä löysin bandit1 salasanan, jolla kirjaudun seuraavalle käyttäjälle.
+
+
+
 ## a) linuxin asennus
 
 Olen asentanut virtuaalikoneen jo aikaisemmalla "linux -palvelimet" kurssilla. Käytän virtuaalikoneeen käynnistämiseen oraclen VM virtualbox manageria. Virtuaalikoneella minulla on debian 12 käyttöjärjestelmä.
