@@ -5,7 +5,7 @@
 Santos et al: 
 Tiedustelu on onnistuneen tunkeutumisen tärkein osa. Tiedustelun tarkoitus on kartoittaa hyökättävän kohteen heikkoudet. 
 
-## a) Over The Wire: Bandit kolme ensimmäistä tasoa
+## a) Over The Wire: Bandit kolme ensimmäistä tasoa (0-2)
 
 Tehtävän alussa sivusto kertoo helpot ohjeet miten päästä eteenpäin tehtävissä, jos jää jumiin. Sivusto muistuttaa esimerkiksi man komennon käytöstä, joka kertoo jokaisen komennon käyttötavan. 
 
@@ -30,9 +30,35 @@ Aloitin tehtävän komennolla ls, jonka avulla löysin readme tiedoston. Seuraav
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/fe98081f-8381-437e-aec2-9363914c9cd7)
 
-readme tiedoston sisältä löysin bandit1 salasanan, jolla kirjaudun seuraavalle käyttäjälle.
+readme tiedoston sisältä löysin bandit1 salasanan, jolla kirjaudun seuraavalle käyttäjälle. Kopioin salasanan leikepöydälle.
 
+Kirjauduin bandit1 käyttäjälle
 
+        ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+Ja syötin löytämäni salasanan. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6b276eab-0d2e-4b68-bdf4-0a450eeada39)
+
+Pääsin käyttäjälle.
+
+## tehtävä 2
+
+Päästäkseni seuraavalle tasolle, pitää bandit1 kotihakemistosta lukea bandit2 salasana, joka on "-" nimisessä tiedostossa. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/2a202016-3b04-451b-8148-437ed32facf5)
+
+Yritin avata tiedoston cat komennolla, mutta sain virheilmoituksen. Tiedoston nimi aiheuttaa ongelmia cat komennon kanssa.
+
+Jouduin googlettamaan, miten tiedosto avataan. Pienen googlettelun jälkeen sain tiedoston auki.
+
+        cat ./-
+
+Avattaessa tiedostoja, joiden nimet aiheuttavat konflikteja cat komennon kanssa pitää avata tarkentamalla tiedoston sijainti, eikä pelkällä nimellä.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c96ec6ce-a461-45ba-8ac4-d9a40ce35df9)
+
+Sain luettua tiedoston sisällön.
 
 ## a) linuxin asennus
 
@@ -86,6 +112,8 @@ Kun tiesin mitä komento nmap -A tekee, käytin sitä omaan localhostiini
 
 
 ## lähteet
+
+ - miten avata tiedosto, jonka nimi on "-" https://stackoverflow.com/questions/42187323/how-to-open-a-dashed-filename-using-terminal
 
  - nmap man sivu
 
