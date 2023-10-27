@@ -60,6 +60,8 @@ Avattaessa tiedostoja, joiden nimet aiheuttavat konflikteja cat komennon kanssa 
 
 Sain luettua tiedoston sisällön.
 
+## b) Challenge.fi 2021 yhden tehtävän ratkaisu
+
 ## a) linuxin asennus
 
 Olen asentanut virtuaalikoneen jo aikaisemmalla "linux -palvelimet" kurssilla. Käytän virtuaalikoneeen käynnistämiseen oraclen VM virtualbox manageria. Virtuaalikoneella minulla on debian 12 käyttöjärjestelmä.
