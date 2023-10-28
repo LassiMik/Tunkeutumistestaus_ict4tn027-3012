@@ -9,6 +9,18 @@
  - Kyber tappoketju on systemaattinen prosessi, jonka avulla vihollinen kohdistaa ja saa aikaan haluttuja vaikutuksia.
  - Kyber tappoketju koostuu seuraavista seitsemästä vaiheesta:
    - Tiedustelu
+     - Kohteen tutkiminen sekä mahdollisten heikkousten löytäminen. Tähän aiheeseen kuuluu esimerkiksi kohteen työntekijöiden sähköpostiosotteiden saaminen.
+   - Aseistaminen
+     - Etäkäyttötroijalaisen sekä aiemmassa vaiheessa huomatun heikkouden yhdistäminen käytettäväksi hyökkäysmenetelmäksi.
+   - Jakelu
+     - Hyökkäysmenetelmän siirto kohdeympäristöön. Esimerkkejä siirtomenetelmistä ovat sähköpostin liitteet, web sivustot sekä usb-tikut
+   - Hyväksikäyttö
+     - Kun ase on toimitettu kohdejärjestelmään, ase laukaisee tunkeilijan koodin. Useimmiten hyväksikäyttö kohdistuu sovelluksen tai käyttöjärjestelmän haavoittuvuuteen.
+   - Asennus
+     - Etäkäyttötroijalaisen tai takaoven asentaminen uhrijärjestelmään mahdollistaa hyökkääjän säilyttää pääsy uhrijärjestelmään.
+   - Komento ja ohjaus
+   - Tavoitteisiin liittyvät toimet
+     - Vasta nyt, kuuden ensimmäisen vaiheen jälkeen, tunkeilijat voivat ryhtyä toimiin alkuperäisten tavoitteidensa saavuttamiseksi.
 
 
 
