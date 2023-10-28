@@ -91,6 +91,10 @@ Jäin jumiin tähän kohtaan. Kokeilin tarkastella palautussivun lähdekoodia, j
 
 ## c) PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 
+Tehtävän esittelyssä annettiin tieto, että sivustolla on SQL injektio heikkous. Kategorioita valitessa sivusto käyttää seuraavaa SQL hakua
+
+    SELECT * FROM products WHERE category = 'Gifts' AND released = 1
+
 Aloitin tehtävän tekemisen käymällä kaikki kategoriat läpi. Huomasin, että selaimen hakukenttään tulostui suoraan kategorian filtterin tiedot. Pystyin myös vaihtamaan filttereitä ilman, että painoin linkkejä sivulta, vaan vaihdoin hakukentän tietoja. 
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/98cb8a2d-3c6b-417c-ba7c-75c71d3d4b99)
