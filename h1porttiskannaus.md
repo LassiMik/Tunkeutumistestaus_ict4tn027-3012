@@ -100,6 +100,11 @@ Tämän huomattuani, kokeilin ensimmäiseksi kirjoittaa hakukenttään:
 
 Kun tämä ei toiminut luin portswiggerin dokumenttia sql injektioista, josta löysin suoraan vastauksen tehtävään. 
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/7c6651eb-3823-4f36-9703-f6e74454e73f)
+
+OR 1=1 hakukentässä palauttaa aina arvon "true", joten SQL näyttää kaikki tuotteet kategoriassa. Hakukentän lopussa olevat "--" kommeotoi loppu SQL haun pois. Eli tässä tapauksessa released=1 haun. 
+
+
 ## a) linuxin asennus
 
 Olen asentanut virtuaalikoneen jo aikaisemmalla "linux -palvelimet" kurssilla. Käytän virtuaalikoneeen käynnistämiseen oraclen VM virtualbox manageria. Virtuaalikoneella minulla on debian 12 käyttöjärjestelmä.
