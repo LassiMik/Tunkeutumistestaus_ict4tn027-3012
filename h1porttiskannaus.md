@@ -89,6 +89,8 @@ Aloitin tehtävän käymällä läpi kaikkien saatavilla olevien sivustojen läh
 
 Jäin jumiin tähän kohtaan. Kokeilin tarkastella palautussivun lähdekoodia, jossa ei ollut oikeastaan mitään, koska sivu on staattinen nettisivu pelkällä yläpuolella olevalla tekstillä. Kokeilin myös analysoida kirjautumisen sekä salasanan palautuksen verkkoliikennettä wiresharkilla, mutta myöskin tuloksetta.
 
+En tiedä miten päästä tehtävästä eteenpäin. Yritin etsiä netistä tietoa, mutta kaikki vastaukset oli luokkaa "tämä on laitonta, älä edes kokeile". Yritin selvittää mm. miten php skriptejä voi katsella nettisivun kautta ilman admin oikeuksia. 
+
 ## c) PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 
 Tehtävän esittelyssä annettiin tieto, että sivustolla on SQL injektio heikkous. Kategorioita valitessa sivusto käyttää seuraavaa SQL hakua
