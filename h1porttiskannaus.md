@@ -87,6 +87,18 @@ Aloitin tehtävän käymällä läpi kaikkien saatavilla olevien sivustojen läh
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/cc0d156d-6a5d-4ed7-8adb-da93ae1bc8b4)
 
+Jäin jumiin tähän kohtaan. Kokeilin tarkastella palautussivun lähdekoodia, jossa ei ollut oikeastaan mitään, koska sivu on staattinen nettisivu pelkällä yläpuolella olevalla tekstillä. Kokeilin myös analysoida kirjautumisen sekä salasanan palautuksen verkkoliikennettä wiresharkilla, mutta myöskin tuloksetta.
+
+## c) PortSwigger Labs: Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+
+Aloitin tehtävän tekemisen käymällä kaikki kategoriat läpi. Huomasin, että selaimen hakukenttään tulostui suoraan kategorian filtterin tiedot. Pystyin myös vaihtamaan filttereitä ilman, että painoin linkkejä sivulta, vaan vaihdoin hakukentän tietoja. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/98cb8a2d-3c6b-417c-ba7c-75c71d3d4b99)
+
+Tämän huomattuani, kokeilin ensimmäiseksi kirjoittaa hakukenttään: 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/454e45ff-a092-47d8-ab7d-f47260a159f5)
+
+Kun tämä ei toiminut luin portswiggerin dokumenttia sql injektioista, josta löysin suoraan vastauksen tehtävään. 
 
 ## a) linuxin asennus
 
@@ -142,6 +154,8 @@ Kun tiesin mitä komento nmap -A tekee, käytin sitä omaan localhostiini
 ## lähteet
 
  - miten avata tiedosto, jonka nimi on "-" https://stackoverflow.com/questions/42187323/how-to-open-a-dashed-filename-using-terminal
+
+ - SQL injektiot https://portswigger.net/web-security/sql-injection#retrieving-hidden-data
 
  - nmap man sivu
 
