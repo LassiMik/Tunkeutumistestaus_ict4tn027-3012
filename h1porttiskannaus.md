@@ -159,6 +159,14 @@ Kun tiesin mitä komento nmap -A tekee, käytin sitä omaan localhostiini
 
 -A laajentaa skannausta selvittämään myös kohteen käyttöjärjestelmän, omassa tapauksessani linux 2.6.32. -A myös näyttää, että tcp-portissa 80 pyörii apachen verkkopalvelin, jonka versio on 2.4.54. Skannaus selvitti myös apache verkkopalvelimen verkkosivun headerin sekä titlen. Viimeiseksi skannaus myös näyttää network distance (DS) eli network hop distance. Joka käytännössä tarkoittaa kuinka kaukana kohde on omasta koneesta, millä skannaus tehtiin. Omassa tapauksessani network distance on 0 eli localhost. Yhteyden ei tarvinnut edetä yhtäkään "hoppia". Kun taas jos skannaisin koneen, joka on ethernet yhteyden päässä, "hops" olisi 1. 
 
+## i) Avointen lähteiden tiedusteluun sopiva weppisivu: crt.sh 
+
+crt.sh on nettisivu, joka näyttää https (Hypertext Transfer Protocol Secure) sertifikaatin saaneiden nettisivujen kaikki alidomainit ja myös niiden osoitteet. Crt.sh työkalu on siitä käytännöllinen, että sivustojen kehittäjät saattavat tehdä saman osoitteen alle alidomainin, jota käyttävät eri ominaisuuksien testaamiseen. Yleensä testisivustojen tietoturvallisuuteen käytetään vähemmän huomiota, kuin varsinaisen nettisivun turvallisuuteen. 
+
+crt.sh sivustolla voi hakea tiedusteltavan kohteen nimellä. Esimerkiksi, jos hakuun kirjoittaa "google", sieltä näkyy kaikki googlen alidomainen osoitteet. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/ea2c7fe0-323b-495c-87c2-db9a65900c48)
+
 
 ## lähteet
 
