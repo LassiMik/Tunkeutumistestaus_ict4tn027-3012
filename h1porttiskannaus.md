@@ -109,11 +109,11 @@ Kun tämä ei toiminut luin portswiggerin dokumenttia sql injektioista, josta l�
 OR 1=1 hakukentässä palauttaa aina arvon "true", joten SQL näyttää kaikki tuotteet kategoriassa. Hakukentän lopussa olevat "--" kommeotoi loppu SQL haun pois. Eli tässä tapauksessa released=1 haun. 
 
 
-## a) linuxin asennus
+## d) linuxin asennus
 
 Olen asentanut virtuaalikoneen jo aikaisemmalla "linux -palvelimet" kurssilla. Käytän virtuaalikoneeen käynnistämiseen oraclen VM virtualbox manageria. Virtuaalikoneella minulla on debian 12 käyttöjärjestelmä.
 
-## b) porttien skannaus
+## e) porttien skannaus
 
 Tässä osiossa asennan nmap nimisen työkalun, jota käytän porttien skannaamiseen. 
 
@@ -136,6 +136,8 @@ Koneella on auki tcp-portti 80 ja service kohdalla lukee "http" (Hypertext Trans
 
 Virtuaalikone käyttää porttia 80 internettiin yhdistämistä varten.
 
+## f) kaikkien porttien skannaus
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c6a2c92e-dac1-4673-805d-e6bed7140e89)
 
 Skannasin kaikki virtuaalikoneeni portit, skannaus antaa saman lopputuloksen, eli portin 80. Loput 65535 ovat auki. 
@@ -143,7 +145,7 @@ Skannaus myös kesti huomattavasti aikaisempaa skannausta pidempään. Aikaisemp
 kun taas 65535 portin skannauksessa kesti 0.62 sekuntia.
 Muun kuin oman koneen skannauksessa saattaa kestää huomattaviakin aikoja.
 
-## d) laaja porttiskannaus 
+## g) laaja porttiskannaus 
 
 Selvitin ensin mitä tehtävänanossa annettu komento nmap -A tekee tarkastelemalla nmapin man sivua.
 
