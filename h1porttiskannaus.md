@@ -2,8 +2,15 @@
 
 ## x ) lue ja tiivistä
 
-Santos et al: 
-Tiedustelu on onnistuneen tunkeutumisen tärkein osa. Tiedustelun tarkoitus on kartoittaa hyökättävän kohteen heikkoudet. 
+### Santos et al the art of hacking
+ - Tiedustelu on onnistuneen tunkeutumisen tärkein osa. Tiedustelun tarkoitus on kartoittaa hyökättävän kohteen heikkoudet.
+
+### Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains
+ - Kyber tappoketju on systemaattinen prosessi, jonka avulla vihollinen kohdistaa ja saa aikaan haluttuja vaikutuksia.
+ - Kyber tappoketju koostuu seuraavista seitsemästä vaiheesta:
+   - Tiedustelu
+
+
 
 ## a) Over The Wire: Bandit kolme ensimmäistä tasoa (0-2)
 
