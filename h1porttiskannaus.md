@@ -81,6 +81,13 @@ Sain luettua tiedoston sisällön.
 
 ## b) Challenge.fi 2021 yhden tehtävän ratkaisu
 
+Valitsin tehtäväksi "Hack weblogin part 1" nimisen tehtävän.
+
+Aloitin tehtävän käymällä läpi kaikkien saatavilla olevien sivustojen lähdekoodin. Lähdekoodista en huomannut mitään heikkouksia. Seuraavaksi kokeilin "forgot your password" sivua ja yritin palauttaa käyttäjän "admin" salasanan. Sivu ei antanut erroreita ja sain selville käyttäjänimen lisäksi myös käyttäjänimeen sidotun sähköpostiosoitteen "admin@hackd.example"
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/cc0d156d-6a5d-4ed7-8adb-da93ae1bc8b4)
+
+
 ## a) linuxin asennus
 
 Olen asentanut virtuaalikoneen jo aikaisemmalla "linux -palvelimet" kurssilla. Käytän virtuaalikoneeen käynnistämiseen oraclen VM virtualbox manageria. Virtuaalikoneella minulla on debian 12 käyttöjärjestelmä.
