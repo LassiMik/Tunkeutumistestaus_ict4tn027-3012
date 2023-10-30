@@ -178,6 +178,8 @@ crt.sh sivustolla voi hakea tiedusteltavan kohteen nimellä. Esimerkiksi, jos ha
 
  - SQL injektiot https://portswigger.net/web-security/sql-injection#retrieving-hidden-data
 
+ - Miten skannata nmapilla kaikki portit https://www.techtarget.com/searchsecurity/feature/How-to-use-Nmap-to-scan-for-open-ports
+
  - nmap man sivu
 
  - selitystä nmap tulosteesta https://nmap.org/book/osdetect-fingerprint-format.html
