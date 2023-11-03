@@ -106,12 +106,23 @@ Toinenkin maali löytyi.
 
 Tätä tehtävää varten asensin paikallisen harjoitusmaalin Tero Karvinen sivuston ohjeiden avulla
 
+```
+$ sudo apt-get update
+$ sudo apt-get install docker.io git ffuf
+$ git clone https://github.com/adamtlangley/ffufme
+$ cd ffufme/
+$ sudo docker build -t ffufme .
+```
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6fb3ecc6-3220-4625-9706-0b6ca3f1e786)
 
+Kohtasin virheilmoituksen. Korjasin virheen käynnistämällä dockerin komennolla 
 
+    systemctl start docker
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/625fb6cb-5482-4de9-b120-58c46052211c)
 
-
+Kohtasin seuraavan ongelman 
 
 
 
