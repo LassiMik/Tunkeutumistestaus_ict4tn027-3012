@@ -45,7 +45,7 @@ https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/?fromSearch=ffuf
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/208b5d40-43b6-4d6b-8060-be73a8153dca)
 
-Käynnistin harjoituskohteen. 
+Käynnistin harjoitusmaalin. 
 
 ### ffuf asennus
 
@@ -60,6 +60,62 @@ $ ./ffuf
 Jouduin myös asentamaan wget komennon
 
     sudo apt-get install -y wget
+
+fuff tarvitsee vielä sanalistan, jolla kokeilla mahdollisia osumia. 
+
+```
+$ wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/common.txt
+```
+
+### Kahden hakemiston löytäminen harjoitusmaalista
+
+Tehtäväni on löytää aiemmin ladatusta dirfutz-1 maalista kaksi hakemistoa. Admin sivu ja versionhallintaan liittyvä sivu.
+Ennen ffuf työkalun käyttöä irrotin virtuaalikoneeni internetistä. 
+
+Kokeilin ensiksi ffuf käyttöä
+
+    ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4169df66-f2da-40bf-ad85-bc12a49af42e)
+
+Komento tulosti paljon tietoa. Tarkastelin muutamaa tulosta curl komennolla. Kaikkien kokeilemieni sivustojen rakenne oli sama, kuin dirfutz-1 pääsivulla. 
+Huomasin myös, että kaikkien sivujen koko tavuissa oli 154.
+
+Seuraavaksi tarkensin ffuf hakua filtteröimällä pois kaikki sivut joiden koko on tasan 154. 
+
+    ./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154
+
+-fs tarkentaa hakua filteröimällä HTTP pyynnön mukaan 
+
+Tällä komennolla sain paljon kiinnostavempia vastauksia.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/be5bced6-90e5-4da0-8d40-3cf213769286)
+
+Nyt, kun vastausten määrä on paljon pienempi tarkastelin tuloksia manuaalisesti curl komennolla. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f5b1947a-d5d4-44c9-9d10-0372f73444d5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
