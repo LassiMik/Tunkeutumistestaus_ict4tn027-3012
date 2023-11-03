@@ -40,8 +40,7 @@
 
 ## a) fuff 
 
-Aloitin tehtävän lataamalla haastebinäärin osoitteesta 
-https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/?fromSearch=ffuf#your-turn---challenge
+Aloitin tehtävän lataamalla haastebinäärin Tero Karvisen sivustolta 
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/208b5d40-43b6-4d6b-8060-be73a8153dca)
 
@@ -105,6 +104,9 @@ Toinenkin maali löytyi.
 
 ## b) Fuffme
 
+Tätä tehtävää varten asensin paikallisen harjoitusmaalin Tero Karvinen sivuston ohjeiden avulla
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6fb3ecc6-3220-4625-9706-0b6ca3f1e786)
 
 
 
@@ -120,7 +122,10 @@ Toinenkin maali löytyi.
 
 
 
+## Lähteet 
 
+ - a) tehtävän haastebinääri https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/?fromSearch=ffuf#your-turn---challenge
+ - Harjoitusmaali dockerilla https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/
 
 
 
