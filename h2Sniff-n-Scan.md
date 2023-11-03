@@ -123,6 +123,40 @@ $ wget http://ffuf.me/wordlist/common.txt
 $ wget http://ffuf.me/wordlist/parameters.txt 
 $ wget http://ffuf.me/wordlist/subdomains.txt
 ```
+Irrotin vielä koneeni internetistä tehtävän ajaksi.
+
+### Basic content discovery 
+
+Ensimmäinen tehtävä on vain kokeilu, että ffuf toimii kuin pitäisikin. Tehtävässä annetaan valmiiksi komento ja tehtävässä pitää löytää kaksi tiedostoa. class ja development.log 
+
+    ffuf -w $HOME/wordlists/common.txt -u http://ffuf.me/cd/basic/FUZZ
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/38f4f327-190c-47ef-92cc-04f75170fc39)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
