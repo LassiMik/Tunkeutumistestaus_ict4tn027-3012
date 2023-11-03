@@ -37,3 +37,35 @@
        - sU eli UDP scan skannaa TCP porttien sijasta UDP portteja. Useimmat palvelinten ylläpitäjät keskittyvät vain TCP porttien suojaukseen, koska niitä on nopeampi ja helpompi skannata.
        - UDP portit ovat yleensä huonommin suojattuja, kuin TCP portit.
        - Toisin kuin TCP skannauksessa UDP portit lähettävät harvemmin vastauksia vaikka ne olisivatkin auki, joka hidastaa nmapin vauhtia.
+
+## a) fuff 
+
+Aloitin tehtävän lataamalla haastebinäärin osoitteesta 
+https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/?fromSearch=ffuf#your-turn---challenge
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/208b5d40-43b6-4d6b-8060-be73a8153dca)
+
+Käynnistin harjoituskohteen. 
+
+### ffuf asennus
+
+Noudatin ohjeita, jotka löytyivät Tero Karvisen sivuilta
+
+```
+$ wget https://github.com/ffuf/ffuf/releases/download/v2.0.0/ffuf_2.0.0_linux_amd64.tar.gz
+$ tar -xf ffuf_2.0.0_linux_amd64.tar.gz
+$ ./ffuf
+```
+
+Jouduin myös asentamaan wget komennon
+
+    sudo apt-get install -y wget
+
+
+
+
+
+
+
+
+
