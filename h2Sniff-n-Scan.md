@@ -32,4 +32,8 @@
     - -sT
        - sT eli TCP connect scan on oletusasetus silloin, kun SYN skannaus, jota käsittelin ylempänä, ei ole vaihtoehto. SYN skannaus ei ole vaihtoehto silloin, kun käyttäjällä ei ole oikeuksia lähettää raakoja paketteja.
        - Tässä skannauksessa nmap käyttää monissa palvelimissa olevaa ohjelmointirajapintaa "Berkley Sockets API" yhteyden saamiseen.
-       - Koska nmapin on luotava yhteys ohjelmointirajapintaan, täysi yhteys on luotava porttien skannausta varten. Tämä on ongelmallista, koska skannuksessa kestää pidempään sekä kohde palvelin saattaa luoda lokitiedostoja skannauksesta. 
+       - Koska nmapin on luotava yhteys ohjelmointirajapintaan, täysi yhteys on luotava porttien skannausta varten. Tämä on ongelmallista, koska skannuksessa kestää pidempään sekä kohde palvelin saattaa luoda lokitiedostoja skannauksesta.
+    - -sU
+       - sU eli UDP scan skannaa TCP porttien sijasta UDP portteja. Useimmat palvelinten ylläpitäjät keskittyvät vain TCP porttien suojaukseen, koska niitä on nopeampi ja helpompi skannata.
+       - UDP portit ovat yleensä huonommin suojattuja, kuin TCP portit.
+       - Toisin kuin TCP skannauksessa UDP portit lähettävät harvemmin vastauksia vaikka ne olisivatkin auki, joka hidastaa nmapin vauhtia.
