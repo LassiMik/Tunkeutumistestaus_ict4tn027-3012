@@ -27,6 +27,9 @@
        - Filtered portit myös hidastavat skannausta paljon, koska nmap yrittää lähettää uusia paketteja portteihin, mistä se ei saa vastausta.
 
  - Port Scanning Techniques (tekniikat)
-    - -sS
+    - -sS 
        - sS eli TCP SYN scan on nmapin oletusasetus. Se on myös suosituin hyvästä syystä. Se ei ikinä suorita loppuun TCP 3-way handshakea vaan lopettaa sen aina kakkosvaiheeseen. sS palauttaa aina eritellyn listauksen    porttien tilasta, onko ne avoimia (open), suljettuja (closed) vai filtteröityjä.
-     
+    - -sT
+       - sT eli TCP connect scan on oletusasetus silloin, kun SYN skannaus, jota käsittelin ylempänä, ei ole vaihtoehto. SYN skannaus ei ole vaihtoehto silloin, kun käyttäjällä ei ole oikeuksia lähettää raakoja paketteja.
+       - Tässä skannauksessa nmap käyttää monissa palvelimissa olevaa ohjelmointirajapintaa "Berkley Sockets API" yhteyden saamiseen.
+       - Koska nmapin on luotava yhteys ohjelmointirajapintaan, täysi yhteys on luotava porttien skannausta varten. Tämä on ongelmallista, koska skannuksessa kestää pidempään sekä kohde palvelin saattaa luoda lokitiedostoja skannauksesta. 
