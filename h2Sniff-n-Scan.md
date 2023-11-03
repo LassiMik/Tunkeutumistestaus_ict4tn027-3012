@@ -129,32 +129,105 @@ Irrotin vielä koneeni internetistä tehtävän ajaksi.
 
 Ensimmäinen tehtävä on vain kokeilu, että ffuf toimii kuin pitäisikin. Tehtävässä annetaan valmiiksi komento ja tehtävässä pitää löytää kaksi tiedostoa. class ja development.log 
 
-    ffuf -w $HOME/wordlists/common.txt -u http://ffuf.me/cd/basic/FUZZ
+    ffuf -w $HOME/wordlists/common.txt -u http://localhost/cd/basic/FUZZ
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/38f4f327-190c-47ef-92cc-04f75170fc39)
 
+### Content Discovery With Recursion
 
+Seuraavassa tehtävässä opetellaan -recursion komento. Komento käskee hakua tehdä aina uusi haku jos ensimmäinen haku löytää kansion. -recurision skannaa kaikki tiedostot, mitä eteen tulee. Oli ne kuinka syvällä. 
+Myös tässä tehtävässä annetaan valmiiksi komento.
 
+    ffuf -w ~/wordlists/common.txt -recursion -u http://localhost/cd/basic/FUZZ
 
+Tämäkin komento toimi, kuten pitikin. 
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/54984743-0783-4ae2-a371-1fcb24602542)
 
+### Content Discovery With File Extensions
 
+Seuraavassa tehtävässä käytetään komentoa 
 
+    ffuf -w ~/wordlists/common.txt -e .log -u http://localhost/cd/ext/logs/FUZZ
 
+-e komennolla tarkennetaan mitä tiedostoja etsitään, tässä tapauksessa .log tiedostoja
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/eb0779e1-91d9-41f2-b63f-3005325d573e)
 
+### No 404 Status
 
+Tehtävässä opetetaan -fs komento. En selitä tätä komentoa, sillä selitin sen a) kohdassa. 
 
+    ffuf -w ~/wordlists/common.txt -u http://localhost/cd/no404/FUZZ
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/55567454-26e7-4c1c-80f3-c14d853b34fa)
 
+Liikaa turhia weppisivuja. fs komennolla filteröidään turhat pois
 
+    ffuf -w ~/wordlists/common.txt -u http://localhost/cd/no404/FUZZ -fs 669
+    
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4226672b-427e-4833-a6dc-6d13ff37cc64)
 
+Löytyi secret tiedosto. 
 
+### Param Mining
 
+Tässä tehtävässä opetellaan mitä tehdä, jos vastaan tulee virhetieto "required parameter missing". 
 
+    ffuf -w ~/wordlists/parameters.txt -u http://localhost/cd/param/data?FUZZ=1
 
+Komennossa korvattiin aikaisempi hakulista common.txt, parametrien metsästämiseen tarkoitetulla parameters.txt tiedostolla.
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/30bb4224-e6f4-4a4c-8408-a29ae97ce363)
 
+### Rate Limited
+
+Jotkin palvelimet ovat rajanneet, kuinka monta pyyntöä voi lähettää sekunnissa. 
+Tämä voidaan korjata komennolla
+
+    ffuf -w ~/wordlists/common.txt -t 5 -p 0.1 -u http://ffuf.test/cd/rate/FUZZ -mc 200,429
+
+-p 0.1 aiheuttaa applikaation pysähtymään 0.1 sekunniksi pyyntöjen välissä.
+-t 5 tekee 5 versiota ffuf:ista. Yhdessä komennot siis tekevät maksimissaan 50 pyyntöä sekunnissa. 
+-mc 200,429 näyttää vain pyynnöt jotka palauttivat HTTP statukset 200 tai 429 
+
+Ilman pyyntöjen määrän rajoitusta
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/ad01f1d0-eb2c-4d81-b488-85cd1b4accd7)
+
+Rajoituksen kanssa 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/13e87326-d1cb-42ff-a582-5216414af65f)
+
+### Subdomains - Virtual Host Enumeration
+
+Tässä tehtävässä kerrotaan että fuff ei tarvitse välttämättä tiedostoa, mistä se saa hakusanoja. 
+
+    seq 1 1000 | ffuf -w - -u http://localhost/cd/pipes/user?id=FUZZ
+
+seq 1 1000 putkittaa kaikki luvut 1 - 1000 ffuf hakusanoiksi.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/555cfc23-2b2b-4dd9-b850-b696e762e571)
+
+657 tärppäsi.
+
+## Porttiskannaa paikallinen kone (127.0.0.2 tms), sieppaa liikenne snifferillä, analysoi.
+
+Tehtävää varten suljin aikaisemman docker instanssin komennolla
+
+    sudo systemctl stop docker
+
+Tehtävää varten käynnistin myös wiresharkin. 
+
+Selvitin myös koneeni ip:n tehtäviä varten
+
+    hostname -I
+
+### c) nmap TCP connect scan -sT
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6819d1f2-7e90-4aae-80de-20a2034a3ee8)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/378979c2-7726-4d04-8062-64f47ccb109c)
 
 
 
