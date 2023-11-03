@@ -95,8 +95,15 @@ Nyt, kun vastausten määrä on paljon pienempi tarkastelin tuloksia manuaalises
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f5b1947a-d5d4-44c9-9d10-0372f73444d5)
 
+Löysin ensimmäisen maalihakemiston. Versionhallintasivun. 
 
+Seuraavaksi etsin admin sivun. ffuf tulosteessa oli vain yksi admin tulos ja kokeilin sitä
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e08a410b-ba1a-4c4d-bc45-2f7402adb550)
+
+Toinenkin maali löytyi.
+
+## b) Fuffme
 
 
 
