@@ -114,6 +114,15 @@ $ cd ffufme/
 $ sudo docker build -t ffufme .
 ```
 
+Latasin vielä tehtävään liitetyt hakusanatiedostot ffuf varten
+
+```
+$ mkdir $HOME/wordlists
+$ cd $HOME/wordlists
+$ wget http://ffuf.me/wordlist/common.txt
+$ wget http://ffuf.me/wordlist/parameters.txt 
+$ wget http://ffuf.me/wordlist/subdomains.txt
+```
 
 
 
