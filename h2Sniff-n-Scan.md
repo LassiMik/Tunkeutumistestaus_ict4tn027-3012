@@ -373,6 +373,8 @@ snifferi kuten wireshark auttaa myös seuraamaan udp skannauksen etenemistä.
 
 ## Lähteet 
 
+ - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/
+
  - a) tehtävän haastebinääri https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/?fromSearch=ffuf#your-turn---challenge
  - Harjoitusmaali dockerilla https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/
 
