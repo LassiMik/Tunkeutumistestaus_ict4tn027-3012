@@ -343,6 +343,13 @@ Get pyyntöjen lisäksi nmap pyytää palvelimelta "Options / HTTP /1.1" moneen 
 
 Options pyyntöjen tarkoitus on kerätä tietoa. Optionssin avulla palvelin luovuttaa tietoja siitä mitkä kaikki asetukset ovat tuettuja palvelimella. 
 
+Get pyyntöjen seassa on omituinen pyyntö
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/3d7dcc5b-99c5-40e6-86cc-fad816726233)
+
+Get pyynnöt ovat tapa pyytää tietoa. Get pyynnön jälkeisen kauttaviivan jälkeen tulee se tieto, mitä pyydetään. 
+Tässä tapauksessa nmap pyytää palvelimelta "nmaplowercheck16..."
+
+
 ## Lähteet 
 
  - a) tehtävän haastebinääri https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/?fromSearch=ffuf#your-turn---challenge
