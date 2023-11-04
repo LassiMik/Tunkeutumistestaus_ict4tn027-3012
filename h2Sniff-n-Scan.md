@@ -349,6 +349,27 @@ Get pyyntöjen seassa on omituinen pyyntö
 Get pyynnöt ovat tapa pyytää tietoa. Get pyynnön jälkeisen kauttaviivan jälkeen tulee se tieto, mitä pyydetään. 
 Tässä tapauksessa nmap pyytää palvelimelta "nmaplowercheck16..."
 
+Etsin hieman tietoa ja ilmeisesti kyseinen get pyyntö on yksi nmapin lukuisista skripteistä, mitä se käyttää selvittääkseen kohteesta jotain syvempää kuin avoimia portteja. 
+
+"nmaplowercheck16..." on todiste siitä, että palvelinta ollaan tutkittu nmapin avulla. 
+
+### k) UDP-skannaus -sU
+
+    sudo nmap -sU 172.17.0.1
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c0453907-fc19-4b3c-9648-1752dabb5fdc)
+
+nmap lähettää palvelimelle UDP pyyntöjä, mutta saa vastauksen ICMP protokollana. Pyynnöt palauttavat "Destination unreachable"
+
+Toisin kuin TCP skannauksissa, UDP skannauksissa nmap lähettää pyynnöt samasta portista. 
+
+### l) Miksi UDP-skannaus on hankalaa ja epäluotettavaa?
+
+Toisin kuin TCP skannauksessa UDP portit lähettävät harvemmin vastauksia vaikka ne olisivatkin auki, joka hidastaa nmapin vauhtia ja tekee skannaamisesta epäluotettavaa.
+
+--reason flagilla pääsee kurkkaamaan nmapin kulissien taakse, nmap näyttää enemmän informaatiota skannauksesta. 
+
+snifferi kuten wireshark auttaa myös seuraamaan udp skannauksen etenemistä. 
 
 ## Lähteet 
 
@@ -358,7 +379,9 @@ Tässä tapauksessa nmap pyytää palvelimelta "nmaplowercheck16..."
 
  - nmap runtime interaction https://nmap.org/book/man-runtime-interaction.html
 
+ - HTTP options request https://reqbin.com/Article/HttpOptions
 
+ - --reason flag https://geek-university.com/the-reason-flag/
 
 
 
