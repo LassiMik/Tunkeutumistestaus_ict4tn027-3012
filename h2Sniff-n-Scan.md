@@ -219,19 +219,40 @@ Tehtävää varten suljin aikaisemman docker instanssin komennolla
 
 Tehtävää varten käynnistin myös wiresharkin. 
 
-Selvitin myös koneeni ip:n tehtäviä varten
+Selvitin myös virtuaalikoneeni ip:n tehtäviä varten
 
     hostname -I
 
+Koneellani on kaksi eri yksityistä ip-osoitetta.
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/fe02ad4e-d5bf-45d6-9f40-6ba4a64b4470)
+
+
 ### c) nmap TCP connect scan -sT
+
+    nmap -sT 172.17.0.1
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6819d1f2-7e90-4aae-80de-20a2034a3ee8)
 
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/378979c2-7726-4d04-8062-64f47ccb109c)
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4b4caa5b-4f5a-427f-90d7-0ac2562cf7d8)
 
+Wiresharkin tulosteesta näkyy source ja destination samana ip-osoitteena, koska skannasin oman koneeni. 
+Tämän lisäksi osoitteesta 10.0.2.15, joka on koneeni toinen yksityinen osoite, on lähtenyt pyyntöjä myös.
 
+Infokentässä olevia portteja tarkastelemalla huomataan, miten yhteys etenee. 
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/b9105c48-65bb-4872-b6f7-465ddac412ae)
 
+nmap ensin lähettää syn pyynnön palvelimelle porttiin 5405, jonka jälkeen palvelin vastaa [RST, ACK]
+RST tarkoittaa reset ja ACK tarkoittaa acknowledgement. 
+
+Palvelin lähettää RST paketin takaisin sovellukseen (tässä tapauksessa nmap), kun se saa odottamattoman paketin.
+En osaa sanoa, miksi palvelin lähettää myös ACK paketin.
+
+### d) nmap TCP SYN scan -sS
+
+    nmap -sS 172.17.0.1
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/b1eb83fc-0baa-4816-864a-c3a12dd8139a)
 
 
 
