@@ -295,20 +295,25 @@ Komento myös teki kolme eri foo tiedostoa eri tiedostotyypeillä
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/933d80c9-bf8f-42e3-aea1-9cfca583f629)
 
-foo.gnmap
+#### foo.gnmap
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/0aae54e2-5ef8-4c13-87fa-7db37f66c825)
 
-foo.nmap
+.gnmap tiedosto näyttää hyvin samalta nmap tulosteeseen. tiedostosta käy ilmi mitä internet protokollaa käytettiin skannauksessa.
+
+#### foo.nmap
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f34c79bf-aec2-4ba9-b332-5354df9dc523)
 
-foo.xml 
+.nmap tiedosto näyttää samalta, kuin nmapin tuloste komentoriville skannauksen jälkeen. Tämä tiedostotyyppi on paras selkeästi luettavan skannauksen lopputuloksen tarkasteluun.
+
+#### foo.xml 
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/541a2fd7-4bae-4811-b707-c168cac94dc5)
 
+.xml on markup kieli, kuten HTML. XML tiedostojen tarkoitus on siirtää dataa. Tämä tiedosto sopii parhaiten skannauksen lopputuloksen jakamiseen.
 
-
+### i) nmap ajonaikaiset toiminnot
 
 
 
