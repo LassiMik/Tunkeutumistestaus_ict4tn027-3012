@@ -291,8 +291,21 @@ Tuloste näyttää identtiseltä viime tehtävän tulosteen kanssa.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/98fd00a9-0e16-4e78-b25e-9dc0d4826cbe)
 
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9896a003-980c-4095-aaf4-42c82456d116)
+Komento myös teki kolme eri foo tiedostoa eri tiedostotyypeillä
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/933d80c9-bf8f-42e3-aea1-9cfca583f629)
+
+foo.gnmap
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/0aae54e2-5ef8-4c13-87fa-7db37f66c825)
+
+foo.nmap
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f34c79bf-aec2-4ba9-b332-5354df9dc523)
+
+foo.xml 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/541a2fd7-4bae-4811-b707-c168cac94dc5)
 
 
 
