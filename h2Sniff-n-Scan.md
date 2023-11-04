@@ -315,19 +315,41 @@ Komento myös teki kolme eri foo tiedostoa eri tiedostotyypeillä
 
 ### i) nmap ajonaikaiset toiminnot
 
+nmapin suorituksen aikana skannaukseen voi vaikuttaa. 
+Koska harjoittelumaali (oma kone) skannaukset ovat niin nopeita, en pysty demoamaan ajonaikaisia toimintoja.
+ - v/V
+   lisää / vähennä moninaisuutta
+ - d/D
+   lisää / vähennä debuggaus tasoa
+ - p/P
+   käynnistä / sammuta pakettien jäljitys
+ - ?
+   tulostaa ohjeluettelon
 
+### j) Ninjojen tapaan. Piiloutuuko nmap-skannaus hyvin palvelimelta?
 
+Asensin apachen
 
+    sudo apt-get install apache2
 
+Ja skannasin oman koneeni komennolla
 
+    sudo nmap -A 172.17.0.1
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/69387a3b-1cce-4e86-b8f6-8e16f4d665cf)
 
+wiresharkkiin tulostuu paljon get pyyntöjä, joiden lähde on koneeni ja kohde palvelin. 
+Get pyyntöjen lisäksi nmap pyytää palvelimelta "Options / HTTP /1.1" moneen otteeseen.
+
+Options pyyntöjen tarkoitus on kerätä tietoa. Optionssin avulla palvelin luovuttaa tietoja siitä mitkä kaikki asetukset ovat tuettuja palvelimella. 
 
 ## Lähteet 
 
  - a) tehtävän haastebinääri https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/?fromSearch=ffuf#your-turn---challenge
  - Harjoitusmaali dockerilla https://terokarvinen.com/2023/fuffme-web-fuzzing-target-debian/
 
+
+ - nmap runtime interaction https://nmap.org/book/man-runtime-interaction.html
 
 
 
