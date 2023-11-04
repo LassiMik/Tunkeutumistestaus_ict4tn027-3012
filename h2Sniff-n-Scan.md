@@ -229,7 +229,7 @@ Koneellani on kaksi eri yksityistä ip-osoitetta.
 
 ### c) nmap TCP connect scan -sT
 
-    nmap -sT 172.17.0.1
+    sudo nmap -sT 172.17.0.1
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6819d1f2-7e90-4aae-80de-20a2034a3ee8)
 
@@ -250,9 +250,55 @@ En osaa sanoa, miksi palvelin lähettää myös ACK paketin.
 
 ### d) nmap TCP SYN scan -sS
 
-    nmap -sS 172.17.0.1
+    sudo nmap -sS -p80 172.17.0.1
 
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/b1eb83fc-0baa-4816-864a-c3a12dd8139a)
+Tarkensin myös nmap skannausta vain yhteen tiettyyn porttiin analysoinnin helpottamiseksi
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9f87eef2-dcaf-42f7-bede-edbdd13bb246)
+
+Tulosteen info kohdassa huomataan, että nyt nmap lähetti paketin vain palvelimen porttiin 80.
+Muuten tuloste näyttää samalta ylemmän tehtävän kanssa
+
+### e) nmap ping sweep -sn
+
+    sudo nmap -sn 172.17.0.1
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/d7dfae0e-265d-40b7-a3e1-d65d6c56f0ed)
+
+Tulosteessa näkyy uusi ip-osoite. 8.8.4.4. 
+ip-osoite kuuluu googlen DNS palvelimelle. Protokolla keskustelussa on myös DNS.
+
+### f) nmap don't ping -Pn
+
+    sudo nmap -Pn -p80 172.17.0.1
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4d293f8f-8c87-46e9-8371-b300a1a71280)
+
+Tulosteessa yhdistyy kaksi aikaisempaa näkymää edellisistä tehtävistä. Ensiksi nmap on yhteydessä googlen dns palvelimeen, jonka jälkeen nmap lähettää tcp paketin palvelimen osoitteeseen.
+Paketin saamisen jälkeen palvelin lähettää RST, ACK paketin lähettäjän osoitteeseen.
+
+### nmap version detection -sV
+
+    sudo nmap -sV -p80 172.17.0.1
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/abe4cef6-82bf-4c22-95ee-53f1897efafc)
+
+Tuloste näyttää identtiseltä viime tehtävän tulosteen kanssa.
+
+### nmap output files -oA foo
+
+    sudo nmap -oA foo -p80 172.17.0.1
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/98fd00a9-0e16-4e78-b25e-9dc0d4826cbe)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9896a003-980c-4095-aaf4-42c82456d116)
+
+
+
+
+
+
+
 
 
 
