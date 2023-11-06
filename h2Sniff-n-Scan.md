@@ -297,7 +297,7 @@ sV eli Version detection sallii nmapin selvittää hostin versionumerot esim avo
 
     sudo nmap -oA foo -p80 172.17.0.1
 
-oA kertoo nmapille, että skannaus tulee tallentaa oA:ta seuraavaan tiedostoon. Jos tiedostoa ei ole nmap tekee sen nimisen tiedoston
+oA kertoo nmapille, että skannaus tulee tallentaa -oA <tiedostonimi> tiedostoon. Jos tiedostoa ei ole nmap tekee sen nimisen tiedoston
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/98fd00a9-0e16-4e78-b25e-9dc0d4826cbe)
 
