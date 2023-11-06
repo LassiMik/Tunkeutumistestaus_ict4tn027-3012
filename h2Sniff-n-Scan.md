@@ -281,6 +281,8 @@ Jos sn komentoa käytetään yksinään, se saa Nmapin tekemään isäntähaun j
 Tulosteessa yhdistyy kaksi aikaisempaa näkymää edellisistä tehtävistä. Ensiksi nmap on yhteydessä googlen dns palvelimeen, jonka jälkeen nmap lähettää tcp paketin palvelimen osoitteeseen.
 Paketin saamisen jälkeen palvelin lähettää RST, ACK paketin lähettäjän osoitteeseen.
 
+Pn ohittaa isännän etsintävaiheen kokonaan.
+
 ### nmap version detection -sV
 
     sudo nmap -sV -p80 172.17.0.1
@@ -289,9 +291,13 @@ Paketin saamisen jälkeen palvelin lähettää RST, ACK paketin lähettäjän os
 
 Tuloste näyttää identtiseltä viime tehtävän tulosteen kanssa.
 
+sV eli Version detection sallii nmapin selvittää hostin versionumerot esim avoimesta palvelimesta.
+
 ### nmap output files -oA foo
 
     sudo nmap -oA foo -p80 172.17.0.1
+
+oA kertoo nmapille, että skannaus tulee tallentaa oA:ta seuraavaan tiedostoon. Jos tiedostoa ei ole nmap tekee sen nimisen tiedoston
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/98fd00a9-0e16-4e78-b25e-9dc0d4826cbe)
 
