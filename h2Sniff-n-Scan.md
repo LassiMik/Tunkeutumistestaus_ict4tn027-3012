@@ -268,6 +268,8 @@ Muuten tuloste näyttää samalta ylemmän tehtävän kanssa
 Tulosteessa näkyy uusi ip-osoite. 8.8.4.4. 
 ip-osoite kuuluu googlen DNS palvelimelle. Protokolla keskustelussa on myös DNS.
 
+Wireshark tulosteessa ei myöskään näy, että kukaan olisi yrittänyt ottaa yhteyttä portteihin
+
 ### f) nmap don't ping -Pn
 
     sudo nmap -Pn -p80 172.17.0.1
