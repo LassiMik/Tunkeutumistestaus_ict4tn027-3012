@@ -270,6 +270,8 @@ ip-osoite kuuluu googlen DNS palvelimelle. Protokolla keskustelussa on myös DNS
 
 Wireshark tulosteessa ei myöskään näy, että kukaan olisi yrittänyt ottaa yhteyttä portteihin
 
+Jos sn komentoa käytetään yksinään, se saa Nmapin tekemään isäntähaun ja tulostamaan sitten käytettävissä olevat isännät, jotka vastasivat skannaukseen.
+
 ### f) nmap don't ping -Pn
 
     sudo nmap -Pn -p80 172.17.0.1
