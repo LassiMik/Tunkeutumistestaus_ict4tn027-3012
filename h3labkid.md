@@ -8,7 +8,7 @@
  - Metasploit Framework (MSF) on avoimen lähdekoodin työkalu, joka on suunniteltu helpottamaan tunkeutumistestausta. MSF on kirjoitettu Ruby-ohjelmointikielellä.
 
 ### Nyrkkeilysäkki ei kuulu
-
+- Metasploitable 2 ja kali samaan verkkoon virtualboxissa. 
 
 
 
