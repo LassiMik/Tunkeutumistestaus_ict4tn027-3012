@@ -183,7 +183,7 @@ Ja vielä viimeinen komento, niin saadaan parempi sessio
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e4e7f807-8cb4-481f-bc57-8473d564549d)
 
-
+## h) Etsi, tutki ja kuvaile jokin hyökkäys ExploitDB:sta.
 
 
 
