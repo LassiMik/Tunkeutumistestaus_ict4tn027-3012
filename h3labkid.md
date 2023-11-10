@@ -110,6 +110,8 @@ Tarkastin vielä löytämäni ip-osoitteen
 
 ## e) Porttiskannaa Metasploitable huolellisesti (db_nmap -A -p0-)
 
+    db_nmap -A -p0- 192.168.131.3
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/910b3d5a-edde-46ac-a8cc-437d2a9cfb3b)
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/489e3ad3-843c-4a28-8708-abcc5020cad1)
@@ -120,12 +122,28 @@ Tarkastin vielä löytämäni ip-osoitteen
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/dbe350ab-4eba-4b77-9452-11a0fb6259b8)
 
+### Analyysi 
 
+TCP portissa 21 on avoin portti, jossa pyörii FTP
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c75dea15-7775-43c1-ba19-51a8219f1984)
 
+Pienellä googlailulla ftp portin versionumero on myös vanha.
 
+Portissa 22 on avoin ssh portti
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/ba590124-4971-493e-9d89-e3b3f069931d)
 
+Portissa 80 on aikaisemmin curlattu sivusto
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/88432c4e-7e80-456d-896f-0538dbcbca12)
+
+Porteista 3306 sekä 5432 löytyy kaksi sql palvelinta. Ensimmäinen mysql palvelin ja toinen postgresql palvelin
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/3dba99d9-4e70-4382-bd40-c24ef46e160a)
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9376fad8-1311-4483-94a3-6e46e9d1cce8)
+
+Lopuksi skannaus myös paljastaa että kohteen käyttöjärjestelmä on Samba 3.0.20 versio Debianista, joka myöskin on vanhentunut.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/2663a212-a09d-409e-8398-d71901b29bbb)
 
 
 
