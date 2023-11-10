@@ -185,16 +185,16 @@ Ja vielä viimeinen komento, niin saadaan parempi sessio
 
 ## h) Etsi, tutki ja kuvaile jokin hyökkäys ExploitDB:sta.
 
+https://www.exploit-db.com/
 
+### Samba 3.0.20 < 3.0.25rc3 - 'Username' map script' Command Execution (Metasploit)
 
+Löyisin exploit DB:stä samba 3.0.20 heikkouden, eli juuri sen käyttöjärjestelmän heikkouden, joka kohteella on. 
+Exploitti käyttää samban komennon suorittamisen haavoittuvuutta suorittamalla ei oletusarvoisen käyttäjänimikarkoitus skriptin.
+Määrittämällä käyttäjätunnuksen, joka sisältää shell-metamerkkejä, hyökkääjät voivat suorittaa shell komentoja.
+Tämän haavoittuvuuden hyödyntämiseen ei tarvita edes todennusta, koska tätä vaihtoehtoa käytetään käyttäjänimien kartoittamiseen ennen todennusta.
 
-
-
-
-
-
-
-
+## i) Etsi, tutki ja kuvaile hyökkäys 'searchsploit' -komennolla. Muista päivittää.
 
 
 
