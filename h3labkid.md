@@ -96,6 +96,32 @@ aloitin käynnistämällä kali koneella metasploit frameworkin komennolla
 
     msfconsole
 
+Skannasin oman koneeni ip alueella olevat koneet, jolla metasploitable kone myös on.
+
+Käytin komentoa
+
+    db_nmap -sn 192.168.131.5/24
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/58b48524-ca9a-49cb-8361-79d50b77b573)
+
+Tarkastin vielä löytämäni ip-osoitteen
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/11d1d5eb-f4b3-4807-9304-d12322204da0)
+
+## e) Porttiskannaa Metasploitable huolellisesti (db_nmap -A -p0-)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/910b3d5a-edde-46ac-a8cc-437d2a9cfb3b)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/489e3ad3-843c-4a28-8708-abcc5020cad1)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/3a538df2-2bcb-47fb-8e97-fbe8b8203499)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/dc3ab470-9fa4-46c3-b0f5-e5d89357e058)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/dbe350ab-4eba-4b77-9452-11a0fb6259b8)
+
+
+
 
 
 
