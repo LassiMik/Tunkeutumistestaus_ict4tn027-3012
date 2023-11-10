@@ -78,7 +78,7 @@ Kali koneella pingasin metasploitable konetta
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/02a8e948-3044-4c32-a7cc-25bd09a75b79)
 
 
-Metasploit kone:
+Metasploitable kone:
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9fcf4df9-97f9-4303-ac53-4269dbd7e51f)
 
