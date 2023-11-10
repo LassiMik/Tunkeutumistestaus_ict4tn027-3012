@@ -85,6 +85,7 @@ Metasploitable kone:
 Koneet ovat yhteydessä.
 
 Metasploitable kone ei myöskään ole yhteydessä ulkomaailmaan.
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/5ce88212-b847-4b1f-b9ce-e8836164e875)
 
 ## d) Etsi Metasploitable porttiskannaamalla (db_nmap -sn)
