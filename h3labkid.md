@@ -36,8 +36,6 @@ Tässä syötän lataamani tiedoston virtuaalikoneeseen.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9ccfd456-e1e2-4758-8e6b-c3f43feceaf5)
 
-Valitsin vielä virtualboxin asetuksien network välilehdeltä "Bridged Adapter"
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/0da14b9f-839d-4840-a8ae-f1605e7ab6d7)
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/13a47487-771e-49d3-a36d-00aba63cd175)
 
