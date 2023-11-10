@@ -84,10 +84,16 @@ Metasploitable kone:
 
 Koneet ovat yhteydessä.
 
+Metasploitable kone ei myöskään ole yhteydessä ulkomaailmaan.
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/5ce88212-b847-4b1f-b9ce-e8836164e875)
 
+## d) Etsi Metasploitable porttiskannaamalla (db_nmap -sn)
 
+aloitin käynnistämällä kali koneella metasploit frameworkin komennolla
 
+    sudo msfdb init
 
+    msfconsole
 
 
 
@@ -105,3 +111,5 @@ Koneet ovat yhteydessä.
 ## Lähteet
 
  - Nyrkkeilysäkki ei kuulu, c) kohta https://rikumannonen935063021.wordpress.com/
+ - metasploitin käyttö d) https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/
+ -
