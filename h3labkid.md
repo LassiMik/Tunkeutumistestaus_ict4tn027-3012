@@ -41,7 +41,64 @@ Tässä syötän lataamani tiedoston virtuaalikoneeseen.
 
 metasploitable 2 on nyt asennettu virtuaalikoneelle.
 
-## c) 
+## c) Tee koneille virtuaaliverkko, jossa
+
+### Kali saa yhteyden Internettiin, mutta sen voi laittaa pois päältä
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/91d57734-c9cd-430c-ba1e-da6570476b9b)
+
+Kali on yhteydessä internettiin.
+Tarvittaessa kalin voi ottaa pois internetistä 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/ad84784d-ed72-49a4-879f-a586299af2bc)
+
+### Kalin ja Metasploitablen välillä on host-only network
+
+Loin kalille kaksi eri network adapteriasetusta. 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/44b3725d-3478-4e31-82cf-32dde16f5db4)
+
+sekä host-only 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/5a0fa95b-4c94-49a2-825c-ddf1e69e7626)
+
+Muutin myös metasploitablen adapteriasetuksia
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e74b10b1-31e2-4248-929a-d7172981c044)
+
+Nyt metasploitablen ei pitäisi enää olla yhteydessä internettiin.
+
+### Osoita eri komennoilla, että Internet-yhteys katkeaa
+
+metasploitable koneella ajoin seuraavan komennon, sen ip-osoitteen selvittämiseksi
+
+    ifconfig
+
+Kali koneella pingasin metasploitable konetta 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/da46ef1a-8f05-490e-b7b4-90c52c95d0b3)
+
+Metasploit kone:
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9fcf4df9-97f9-4303-ac53-4269dbd7e51f)
+
+Koneet ovat yhteydessä.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Lähteet
