@@ -125,6 +125,7 @@ Tarkastin vielä löytämäni ip-osoitteen
 ### Analyysi 
 
 TCP portissa 21 on avoin portti, jossa pyörii FTP
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c75dea15-7775-43c1-ba19-51a8219f1984)
 
 Pienellä googlailulla ftp portin versionumero on myös vanha.
