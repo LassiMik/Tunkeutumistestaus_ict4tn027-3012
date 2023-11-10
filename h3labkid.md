@@ -75,7 +75,8 @@ metasploitable koneella ajoin seuraavan komennon, sen ip-osoitteen selvittämise
 
 Kali koneella pingasin metasploitable konetta 
 
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/da46ef1a-8f05-490e-b7b4-90c52c95d0b3)
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/02a8e948-3044-4c32-a7cc-25bd09a75b79)
+
 
 Metasploit kone:
 
