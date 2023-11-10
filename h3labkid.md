@@ -24,6 +24,27 @@ Metasploitable 2 ja kali samaan verkkoon virtualboxissa.
  - Käynnistin vielä asennuksen jälkeen virtuaalikoneen uusiksi
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/026db60c-be1c-43fc-83a1-4b5f0cdc84fc)
 
+## b) Asenna metasploitable 2 virtuaalikoneeseen
+
+Latasin sourceforgesta metasploitable 2 zippitiedoston.
+Seuraavaksi, teen uuden virtuaalikoneen, josta tulee metasploitable 2 virtuaalikone.
+Valitsin koneen luonnissa käyttöjärjestelmäksi linux ubuntu 32-bit
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9f205362-cbb1-4ef9-ade7-d9d6b3c9a540)
+
+Käytin seuraavissa vaiheissa oletusasetuksia kovalevyasetuksiin saakka.
+Tässä syötän lataamani tiedoston virtuaalikoneeseen.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9ccfd456-e1e2-4758-8e6b-c3f43feceaf5)
+
+Valitsin vielä virtualboxin asetuksien network välilehdeltä "Bridged Adapter"
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/0da14b9f-839d-4840-a8ae-f1605e7ab6d7)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/13a47487-771e-49d3-a36d-00aba63cd175)
+
+metasploitable 2 on nyt asennettu virtuaalikoneelle.
+
+## c) 
+
 
 ## Lähteet
 
