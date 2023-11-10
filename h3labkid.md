@@ -160,13 +160,28 @@ Valitsin 1 exploitin, sen jälkeen valitsin kohteeksi metasploitable koneen kome
 
 ## g) Parempi sessio
 
+Halusin päivittää aikaisemmassa kohdassa saadun session paremmaksi. 
+Poistuin saadusta sessiosta ctrl+Z ja hain metasploitista 
 
+    search shell_to_meterpreter
 
+    use 0
+    
+ja vielä
 
+    sessions -I
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/76440e63-897c-4a6e-9249-607e2cd92601)
 
+    set SESSIONS 1
 
+    run
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c203d6cc-1923-4cd7-a3f0-b688591b9f88)
+
+Ja vielä viimeinen komento, niin saadaan parempi sessio
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e4e7f807-8cb4-481f-bc57-8473d564549d)
 
 
 
@@ -190,6 +205,6 @@ Valitsin 1 exploitin, sen jälkeen valitsin kohteeksi metasploitable koneen kome
 
 ## Lähteet
 
- - Nyrkkeilysäkki ei kuulu, c) kohta https://rikumannonen935063021.wordpress.com/
- - metasploitin käyttö d) https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/
- -
+ - c) Nyrkkeilysäkki ei kuulu https://rikumannonen935063021.wordpress.com/
+ - d) metasploitin käyttö https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/
+ - g) päivitys meterpreteriin https://infosecwriteups.com/metasploit-upgrade-normal-shell-to-meterpreter-shell-2f09be895646
