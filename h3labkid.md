@@ -199,9 +199,9 @@ Tämän haavoittuvuuden hyödyntämiseen ei tarvita edes todennusta, koska tät�
 
 ## i) Etsi, tutki ja kuvaile hyökkäys 'searchsploit' -komennolla. Muista päivittää.
 
+## j) Kokeile vapaavalintaista haavoittuvuusskanneria johonkin Metasploitablen palveluun.
 
-
-
+## k) Kokeile jotain itsellesi uutta työkalua, joka mainittiin x-kohdan läpikävelyohjeessa.
 
 
 
