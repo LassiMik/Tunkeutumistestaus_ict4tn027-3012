@@ -146,6 +146,40 @@ Lopuksi skannaus myös paljastaa että kohteen käyttöjärjestelmä on Samba 3.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/2663a212-a09d-409e-8398-d71901b29bbb)
 
+## f) Murtaudu Metasploitablen VsFtpd-palveluun Metasploitilla
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/901b6e32-09d6-4feb-8752-436b8a3c02cd)
+
+Valitsin 1 exploitin, sen jälkeen valitsin kohteeksi metasploitable koneen komennolla
+
+    set RHOSTS 192.168.131.3
+
+    exploit
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/d4b6a855-732f-410e-8009-80015fae41dd)
+
+## g) Parempi sessio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
