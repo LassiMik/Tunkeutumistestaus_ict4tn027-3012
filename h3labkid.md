@@ -217,7 +217,7 @@ tarkastelin uutta exploittia nano komennolla
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/bb788b43-5b11-4ebe-9eeb-72aa74e6a500)
 
-Hyökkäys käyttää heikkoutta unrealRCD IRC demonissa. Takaovi aukeaa, kun siihen lähettää "AB" ja 
+Hyökkäys käyttää heikkoutta unrealRCD IRC demonissa. Takaovi aukeaa, kun siihen lähettää "AB" ja payload.encoded muuttujan.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/da23bb65-826a-4605-9fc8-aaec64267f52)
 
