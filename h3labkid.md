@@ -29,6 +29,7 @@ Metasploitable 2 ja kali samaan verkkoon virtualboxissa.
 Latasin sourceforgesta metasploitable 2 zippitiedoston.
 Seuraavaksi, teen uuden virtuaalikoneen, josta tulee metasploitable 2 virtuaalikone.
 Valitsin koneen luonnissa käyttöjärjestelmäksi linux ubuntu 32-bit
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9f205362-cbb1-4ef9-ade7-d9d6b3c9a540)
 
 Käytin seuraavissa vaiheissa oletusasetuksia kovalevyasetuksiin saakka.
