@@ -55,6 +55,7 @@ Tarvittaessa kalin voi ottaa pois internetistä
 ### Kalin ja Metasploitablen välillä on host-only network
 
 Loin kalille kaksi eri network adapteriasetusta. 
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/44b3725d-3478-4e31-82cf-32dde16f5db4)
 
 sekä host-only 
