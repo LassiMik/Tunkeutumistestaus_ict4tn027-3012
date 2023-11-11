@@ -201,6 +201,27 @@ Tämän haavoittuvuuden hyödyntämiseen ei tarvita edes todennusta, koska tät�
 
 ## i) Etsi, tutki ja kuvaile hyökkäys 'searchsploit' -komennolla. Muista päivittää.
 
+Löysin komennolla
+
+    searchploit unrealIRCd backdoor
+
+toisen backdoor heikkouden kohteelta.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/ba4458b9-3167-43ca-ba0c-fface52e5bed)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/38de4858-54ef-4269-be55-d76caafe18c9)
+
+tarkastelin uutta exploittia nano komennolla
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/89435471-721d-44b5-aa99-583f0ae339b6)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/bb788b43-5b11-4ebe-9eeb-72aa74e6a500)
+
+Hyökkäys käyttää heikkoutta unrealRCD IRC demonissa. Takaovi aukeaa, kun siihen lähettää "AB" ja 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/da23bb65-826a-4605-9fc8-aaec64267f52)
+
+
 ## j) Kokeile vapaavalintaista haavoittuvuusskanneria johonkin Metasploitablen palveluun.
 
 ## k) Kokeile jotain itsellesi uutta työkalua, joka mainittiin x-kohdan läpikävelyohjeessa.
