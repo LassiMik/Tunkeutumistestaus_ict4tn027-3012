@@ -236,11 +236,19 @@ Valitsin nikton, joka erikoistuu nettisivustojen heikkouksien skannaamiseen.
 
 Skannaus tulosti paljon dataa, mutta keskityn kiinnostavimpiin löydöksiin
 
+Skannaus löysi tiedoston, jonka sisällä kirjautumistunnuksia
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/533a971d-f774-4017-b870-0f0e0142fce9)
+
+Löysin myös kansion /phpMyAdmin/
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/468a226e-859e-4879-b1e9-ef7d73dc3b92)
 
+/test/ kansiossa nikto kirjoitti, että voi olla, jotakin kiinnostavaa.
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/96bded8c-0e5a-44aa-8ca6-54edf1b15dc3)
+
+PHP voi paljastaa jotakin mahdollisesti jotakin sensitiivistä joillain HTTP pyynnöillä
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6ae24a06-630c-4d98-9866-4d802f254cca)
 
