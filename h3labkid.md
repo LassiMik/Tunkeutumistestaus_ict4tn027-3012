@@ -211,7 +211,13 @@ toisen backdoor heikkouden kohteelta.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/38de4858-54ef-4269-be55-d76caafe18c9)
 
+Tein exploitista tiedoston nykyiseen hakemistoon, jotta voin tarkastella sitä. 
+
+    searchsploit -m 16922
+
 tarkastelin uutta exploittia nano komennolla
+
+    nano 16922.rb
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/89435471-721d-44b5-aa99-583f0ae339b6)
 
@@ -223,6 +229,21 @@ Hyökkäys käyttää heikkoutta unrealRCD IRC demonissa. Takaovi aukeaa, kun si
 
 
 ## j) Kokeile vapaavalintaista haavoittuvuusskanneria johonkin Metasploitablen palveluun.
+
+Valitsin nikton, joka erikoistuu nettisivustojen heikkouksien skannaamiseen.
+
+    nikto -h 192.168.131.3
+
+Skannaus tulosti paljon dataa, mutta keskityn kiinnostavimpiin löydöksiin
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/533a971d-f774-4017-b870-0f0e0142fce9)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/468a226e-859e-4879-b1e9-ef7d73dc3b92)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/96bded8c-0e5a-44aa-8ca6-54edf1b15dc3)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6ae24a06-630c-4d98-9866-4d802f254cca)
+
 
 ## k) Kokeile jotain itsellesi uutta työkalua, joka mainittiin x-kohdan läpikävelyohjeessa.
 
