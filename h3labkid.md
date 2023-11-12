@@ -265,8 +265,17 @@ PHP voi paljastaa jotakin mahdollisesti jotakin sensitiivistä joillain HTTP pyy
 
 ## k) Kokeile jotain itsellesi uutta työkalua, joka mainittiin x-kohdan läpikävelyohjeessa.
 
+HTB brokerissa ei ollut sellaisia uusia työkaluja, joita varten minulla olisi maali. Valitsin sen sijaan feroxbusterin toisesta artikkelista. HTB: TwoMillionista.
 
+Feroxbuster on työkalu, joka on suunniteltu suorittamaan pakotettua selausta. Pakotettu selaus on hyökkäys, jossa tavoitteena on luetella ja päästä käsiksi resursseihin, joihin verkkosovellus ei viittaa, mutta jotka ovat hyökkääjän käytettävissä.
 
+Latasin ensiksi feroxbusterin, koska se ei tullut kalin mukana
+
+    sudo apt-get install feroxbuster
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/67839504-52bd-4b07-adbb-ac62bcbfd91f)
+
+Feroxbuster löysi mm. phpMyAdmin osoitteen
 
 ## Lähteet
  - tehtävät h3labkid https://terokarvinen.com/2023/eettinen-hakkerointi-2023/ 
@@ -275,3 +284,5 @@ PHP voi paljastaa jotakin mahdollisesti jotakin sensitiivistä joillain HTTP pyy
  - c) Nyrkkeilysäkki ei kuulu https://rikumannonen935063021.wordpress.com/
  - d) metasploitin käyttö https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/
  - g) päivitys meterpreteriin https://infosecwriteups.com/metasploit-upgrade-normal-shell-to-meterpreter-shell-2f09be895646
+ - k) HTB: two million https://0xdf.gitlab.io/2023/06/07/htb-twomillion.html
+ - k) feroxbuster https://www.kali.org/tools/feroxbuster/
