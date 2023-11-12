@@ -11,13 +11,19 @@
 
 HTB: Broker
 
+ - Broker on HackTheBoxin tekemä peli, jonka tarkoitus on jakaa tietoisuutta uudesta heikkoudesta ActiveMQ:ssa. ActiveMQ on apachen tekemä javaan pohjautuva viestin välittäjä.
+ - CVE-2023-46604 on todentamattoman koodin etäsuorittamisen haavoittuvuus ActiveMQ:ssa, joka sai harvinaisen 10.0 CVSS imact -luokituksen
+ - CVSS (Common Vulnerability Scoring System) on pisteytys 0-10 tietoturvaaukkojen vakavuudesta.
+ - Hyökkäyksessä käytetään python koodia, jolle annetaan kohteen ip-osoite, porttinumero ja Spring XML Url.
+ - Hyökkäys hyödyntää ActiveMQ:n deserialisointihaavoittuvuutta ja käyttää Spring-gadgetia ladatakseen etä-XML-tiedoston, joka pystyy suorittamaan ohjelmia.
+
 ### Nyrkkeilysäkki ei kuulu
 
 Metasploitable 2 ja kali samaan verkkoon virtualboxissa. 
 
-- Riku aloitti luomalla uuden verkon virtualboxiin, jotta kali ja metasploitable voisivat olla samassa verkossa, ilman yhteyttä verkon ulkopuolelle.
-- Host-only verkkoa luodessa riku kohtasi virheilmoituksen ”Failed to save host network interface parameter.” Syynä oli, että oletuksena virtualbox hyväksyy linux koneille avin tietyn verkkoalueen. Uudet verkot pitää lisätä myös konffitiedostoon, joka löytyy /etc/vbox/networks.conf
-- Virtualboxista voi tämän jälkeen vaihtaa kalin ja metasploitablen verkkoasetukset niin, ettei ne näy internettiin. Asetus löytyy virtualboxissa asetukset sivun network välilehdeltä.
+- Riku aloitti luomalla uuden DHCP verkon virtualboxiin, jotta kali ja metasploitable voisivat olla samassa verkossa, ilman yhteyttä verkon ulkopuolelle.
+- Host-only verkkoa luodessa riku kohtasi virheilmoituksen ”Failed to save host network interface parameter.” Syynä oli, että oletuksena virtualbox hyväksyy linux koneille vain tietyn verkkoalueen. Uudet verkot pitää lisätä myös konffitiedostoon, joka löytyy /etc/vbox/networks.conf
+- Virtualboxista voi tämän jälkeen vaihtaa kalin ja metasploitablen verkkoasetukset niin, ettei ne näy internettiin. Asetus löytyy virtualboxissa asetukset sivun network välilehdeltä "Host-only Adapter".
 - Riku vielä varmisti pingaamalla molemmilla hosteilla toiselle, että ne olivat samassa suljetussa verkossa.
   
 ## a) Asenna Kali virtuaalikoneeseen
