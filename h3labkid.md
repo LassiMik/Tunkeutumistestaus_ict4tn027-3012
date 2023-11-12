@@ -7,6 +7,8 @@
  - Läpäisytestin päätarkoitus on tunkeutua kohdejärjestelmään ja luoda pysyvä reitti järjestelmän sisään.
  - Metasploit Framework (MSF) on avoimen lähdekoodin työkalu, joka on suunniteltu helpottamaan tunkeutumistestausta. MSF on kirjoitettu Ruby-ohjelmointikielellä.
 
+### Vapaavalintainen läpikävely 0xdf
+
 ### Nyrkkeilysäkki ei kuulu
 
 Metasploitable 2 ja kali samaan verkkoon virtualboxissa. 
@@ -259,7 +261,8 @@ PHP voi paljastaa jotakin mahdollisesti jotakin sensitiivistä joillain HTTP pyy
 
 
 ## Lähteet
-
+ - Velu 2022: Mastering Kali Linux for Advanced Penetration Testing 4ed: Chapter 10 - Exploitation https://www.oreilly.com/library/view/mastering-kali-linux/9781801819770/Text/Chapter_10.xhtml#_idParaDest-257
+ - 0xdf https://0xdf.gitlab.io/2023/11/09/htb-broker.html
  - c) Nyrkkeilysäkki ei kuulu https://rikumannonen935063021.wordpress.com/
  - d) metasploitin käyttö https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/
  - g) päivitys meterpreteriin https://infosecwriteups.com/metasploit-upgrade-normal-shell-to-meterpreter-shell-2f09be895646
