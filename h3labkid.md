@@ -9,6 +9,8 @@
 
 ### Vapaavalintainen läpikävely 0xdf
 
+HTB: Broker
+
 ### Nyrkkeilysäkki ei kuulu
 
 Metasploitable 2 ja kali samaan verkkoon virtualboxissa. 
