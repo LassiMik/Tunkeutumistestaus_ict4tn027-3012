@@ -269,6 +269,7 @@ PHP voi paljastaa jotakin mahdollisesti jotakin sensitiivistä joillain HTTP pyy
 
 
 ## Lähteet
+ - tehtävät h3labkid https://terokarvinen.com/2023/eettinen-hakkerointi-2023/ 
  - Velu 2022: Mastering Kali Linux for Advanced Penetration Testing 4ed: Chapter 10 - Exploitation https://www.oreilly.com/library/view/mastering-kali-linux/9781801819770/Text/Chapter_10.xhtml#_idParaDest-257
  - 0xdf https://0xdf.gitlab.io/2023/11/09/htb-broker.html
  - c) Nyrkkeilysäkki ei kuulu https://rikumannonen935063021.wordpress.com/
