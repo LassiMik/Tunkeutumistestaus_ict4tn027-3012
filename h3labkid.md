@@ -162,6 +162,8 @@ Lopuksi skannaus myös paljastaa että kohteen käyttöjärjestelmä on Samba 3.
 
 ## f) Murtaudu Metasploitablen VsFtpd-palveluun Metasploitilla
 
+Search x voi etsiä sopivan hyökkäyksen hakusanoilla
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/901b6e32-09d6-4feb-8752-436b8a3c02cd)
 
 Valitsin 1 exploitin, sen jälkeen valitsin kohteeksi metasploitable koneen komennolla
