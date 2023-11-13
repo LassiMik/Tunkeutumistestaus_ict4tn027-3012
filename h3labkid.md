@@ -114,6 +114,8 @@ Käytin komentoa
 
     db_nmap -sn 192.168.131.5/24
 
+-sn host skannaus, ei tarkastele portteja.
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/58b48524-ca9a-49cb-8361-79d50b77b573)
 
 Tarkastin vielä löytämäni ip-osoitteen
