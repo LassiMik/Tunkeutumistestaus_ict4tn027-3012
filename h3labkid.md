@@ -207,7 +207,7 @@ https://www.exploit-db.com/
 
 Löyisin exploit DB:stä samba 3.0.20 heikkouden, eli juuri sen käyttöjärjestelmän heikkouden, joka kohteella on. 
 
-Exploitti käyttää samban komennon suorittamisen haavoittuvuutta suorittamalla ei oletusarvoisen käyttäjänimikarkoitus skriptin.
+Exploitti käyttää samban komennon suorittamisen haavoittuvuutta suorittamalla ei oletusarvoisen käyttäjänimikartoitus skriptin.
 
 Määrittämällä käyttäjätunnuksen, joka sisältää shell-metamerkkejä, hyökkääjät voivat suorittaa shell komentoja.
 
