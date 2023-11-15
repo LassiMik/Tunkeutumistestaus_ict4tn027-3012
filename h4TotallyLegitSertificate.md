@@ -72,8 +72,66 @@ java -Dfile.encoding=UTF-8 -Dwebgoat.port=8888 -Dwebwolf.port=9090 -jar webgoat-
 ```
 ## a) Totally Legit Sertificate
 
-Aloitin lataamalla zap-proxyn [täältä](https://www.zaproxy.org/download/)
+### zap sekä javan asennus
 
+Aloitin lataamalla zap-proxyn [täältä](https://www.zaproxy.org/download/)
+Valisin "cross platform package". 
+Paketti tulee zip tiedostona, joten jouduin purkamaan sen vielä unzip komennolla.
+
+Koska zap käyttää javaa latasin myös java runtime enviromentin komennolla
+```
+sudo apt-get install openjdk-17-jre
+```
+
+Avasin zap proxyn komennolla
+```
+java -jar ZAP_2.14.0/zap-2.14.0.jar
+```
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/0d1a70af-13aa-4b39-894d-3dd11aeef1a5)
+
+### proxyn asentaminen hakukoneeseen
+
+Zap options kohdassa kirjoitin hakuun "network"
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/d0e0328e-23b5-4a8d-ab43-e6dd64ecd974)
+
+Tallensin sertifikaatin koneelleni. 
+
+Seuraavaksi menin hakukoneelleni, joka tässä tapauksessa on firefox ja avasin asetukset.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/529dc231-5aa8-42a1-a1a1-8f417ced7f11)
+
+Asetuksissa laitoin "manual proxy configuration" ja syötin portin, jossa zap proxy pyörii.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c55eecc2-d32d-43c0-a572-58145cd4320b)
+
+Jotta zap toimisi vielä lisäsin aikaisemmin tallentamani sertifikaatin firefoxiin, firefoxin asetuksista.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/03bae4a8-7d42-4f9f-8b27-6512b61bed39)
+
+Import ja valitsin sertifikaatin, jonka latasin.
+
+Nyt kaikki pitäisi olla kunnossa. Testasin proxyn toimimista navigoimalla aiemmin ladatun metasploitable 2 virtuaalikoneen 
+sivustolle. 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/963e3bf9-09c6-461d-860b-8c93852804d4)
+
+Zap proxyyn tulostuu tietoa.
+
+## b) Kettumaista. Asenna FoxyProxy Standard Firefox Addon, ja lisää ZAP proxyksi siihen.
+
+Firefoxin oikeasta valikosta, josta asetuksetkin löytyivät valitsin "add-ons and themes" 
+Hain "foxyproxy" hakukentästä.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/54b86196-dcb6-4e60-a230-6e00b061850f)
+
+Latasin "FoxyProxy Standard" 
+Avasin foxyproxyn asetukset chromen ylävalikosta 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/3c05cc53-baba-4e06-8dcd-6ce773645747)
+
+Lisäsin ZAP-proxyn foxyproxyyn 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c5ba8c47-6832-4dd7-ab42-5fc24f261612)
 
 
 
