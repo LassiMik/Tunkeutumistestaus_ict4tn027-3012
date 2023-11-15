@@ -54,9 +54,9 @@ jossa hyökkääjä ei voi muokata access control tarkastusta tai metatietoja.
  - Webgoat on web tunkeutumistestauksen harjoitteluun suunniteltu sivu. Webgoattiin on tahallaan haudattu haavoittuvuuksia.
  - Webgoat on java pohjainen sivu
  - Sivusto vaatii toimivan java runtime enviromentin pyöriäkseen. Javan voi ladata komennolla
-
-       sudo apt-get install openjdk-17-jre
-
+```
+sudo apt-get install openjdk-17-jre
+```
 Karvinen myös suosittelee jonkin palomuurin lataamista koneelle, esimerkissä ufw tulimuuri
 ```
 sudo apt-get install ufw
