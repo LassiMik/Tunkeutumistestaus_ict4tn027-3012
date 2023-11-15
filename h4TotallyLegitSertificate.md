@@ -62,6 +62,15 @@ Karvinen myös suosittelee jonkin palomuurin lataamista koneelle, esimerkissä u
 sudo apt-get install ufw
 sudo ufw enable
 ```
+Seuraavaksi ohjeessa ladataan itse webgoat komennolla
+```
+wget https://github.com/WebGoat/WebGoat/releases/download/v2023.4/webgoat-2023.4.jar
+```
+Ja viimeiseksi käynnistetään webgoat
+```
+java -Dfile.encoding=UTF-8 -Dwebgoat.port=8888 -Dwebwolf.port=9090 -jar webgoat-2023.4.jar
+```
+
 ## Lähteet 
 
  - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/
@@ -70,5 +79,6 @@ sudo ufw enable
  - PortSwigger Access control vulnerabilities and privilege escalation https://portswigger.net/web-security/access-control
  - PortSwigger Server-side template injection https://portswigger.net/web-security/server-side-template-injection
  - PortSwigger Cross-site scripting https://portswigger.net/web-security/cross-site-scripting
+ - Karvinen 2020: Using New Webgoat 2023.4 to Try Web Hacking https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/
 
 
