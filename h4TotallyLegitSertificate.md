@@ -72,7 +72,7 @@ java -Dfile.encoding=UTF-8 -Dwebgoat.port=8888 -Dwebwolf.port=9090 -jar webgoat-
 ```
 ## a) Totally Legit Sertificate
 
-
+Aloitin lataamalla zap-proxyn (täältä)[https://www.zaproxy.org/download/]
 
 
 
