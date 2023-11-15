@@ -70,6 +70,18 @@ Ja viimeiseksi käynnistetään webgoat
 ```
 java -Dfile.encoding=UTF-8 -Dwebgoat.port=8888 -Dwebwolf.port=9090 -jar webgoat-2023.4.jar
 ```
+## a) Totally Legit Sertificate
+
+
+
+
+
+
+
+
+
+
+
 
 ## Lähteet 
 
