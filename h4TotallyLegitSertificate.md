@@ -165,8 +165,15 @@ Webgoat toimii nyt.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/26a428bd-86f1-45c9-80f2-e162bab463bb)
 
+### m) (A1) Broken Access Control (WebGoat 2023.4)
 
+#### Hijack a session
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/b5e8b8d9-038a-44d6-ac1b-eafbafed5227)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/ed38ab66-8967-4f00-a1c1-518f5c47204c)
+
+Voidaan päätellä, että session id eli ensimmäinen lukusarja ennen "-" on 82 päättyinen.
 
 ## Lähteet 
 
