@@ -151,15 +151,21 @@ Tehtävän tarkoitus on etsiä carlos nimisen käyttäjän salasana. Sivustossa 
 ### Cross Site Scripting (XSS)
 
 ## k) Asenna Webgoat 2023.4. (Uusi versio, jossa on eri tehtäviä kuin vanhemmissa)
-Latasin webgoatin [Täältä]() . Käynnistin webgoatin komennolla 
+Latasin webgoatin [Täältä](https://github.com/WebGoat/WebGoat/releases) . Käynnistin webgoatin komennolla 
 ```
 java -jar webgoat-2023.4.jar
 ```
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e482ca04-143d-4c64-a2b6-605efe64c085)
 
-Kohtasin kuitenkin ongelman käynnistyksessä. Webgoatin default porttinumero on sama, kuin zapissa. Korjasin ongelman 
+Kohtasin kuitenkin ongelman käynnistyksessä. Webgoatin default porttinumero on sama, kuin zapissa. Korjasin ongelman vaihtamalla portin.
 
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/175f1a61-de2e-4ae6-a410-d28d8a864a5e)
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6be50e10-729b-4386-915a-8b5849eb61fa)
+
+Webgoat toimii nyt.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/26a428bd-86f1-45c9-80f2-e162bab463bb)
+
+
 
 
 ## Lähteet 
