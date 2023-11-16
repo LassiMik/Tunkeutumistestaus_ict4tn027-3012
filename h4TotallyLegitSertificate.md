@@ -133,12 +133,33 @@ Lisäsin ZAP-proxyn foxyproxyyn
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c5ba8c47-6832-4dd7-ab42-5fc24f261612)
 
+## PortSwigger Labs. Ratkaise tehtävät. Selitä ratkaisusi: mitä palvelimella tapahtuu, mitä eri osat tekevät, miten hyökkäys löytyi, mistä vika johtuu
+
+### Insecure Direct Object Reference (IDOR)
+
+Tehtävän tarkoitus on etsiä carlos nimisen käyttäjän salasana. Sivustossa on heikkous. Sivusto tallentaa käyttäjän chatti logit suoraan palvelimen tiedostoihin ja hakee ne staattisilla urleilla.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/7a136993-3100-406d-92cc-2d946cb14036)
+
+### Path traversal
 
 
+### Server Side Template Injection (SSTI)
 
+### Server Side Request Forgery (SSRF)
 
+### Cross Site Scripting (XSS)
 
+## k) Asenna Webgoat 2023.4. (Uusi versio, jossa on eri tehtäviä kuin vanhemmissa)
+Latasin webgoatin [Täältä]() . Käynnistin webgoatin komennolla 
+```
+java -jar webgoat-2023.4.jar
+```
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e482ca04-143d-4c64-a2b6-605efe64c085)
 
+Kohtasin kuitenkin ongelman käynnistyksessä. Webgoatin default porttinumero on sama, kuin zapissa. Korjasin ongelman 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/175f1a61-de2e-4ae6-a410-d28d8a864a5e)
 
 
 ## Lähteet 
