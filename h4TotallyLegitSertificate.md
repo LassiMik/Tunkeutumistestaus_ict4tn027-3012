@@ -154,7 +154,7 @@ Tehtävän tarkoitus on etsiä carlos nimisen käyttäjän salasana. Sivustossa 
 
 #### f) File path traversal, traversal sequences stripped non-recursively
 
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/5e3fc695-f484-4a03-a8cf-88dc2d241948)
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/478cfe29-30d8-4be8-b0fa-598fca289201)
 
 ### Server Side Template Injection (SSTI)
 
