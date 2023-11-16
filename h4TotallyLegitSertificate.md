@@ -205,6 +205,28 @@ Voidaan päätellä, että session id eli ensimmäinen lukusarja ennen "-" on 82
 
 "-" jälkeinen numerosarja on kinkkisempi. 5 viimeistä numeroa ovat erilaiset ja oikea loppu on lukujen 69892 ja 70036 väliltä.
 
+#### Insecure Direct Object References (4) 
+
+Ensimmäisessä osiossa annettiin valmiiksi käyttäjänimi "tom" ja salasana "cat", joilla piti kirjautua sisään.
+
+##### Toinen osio:
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/eca6768a-13cf-4e3b-9561-876cc9965efa)
+
+View profile nappia painettaessa ZAP nappasi get pyynnön. Get pyynnön vastauksessa on kaksi parametria, joita etsimme.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/7a6f1cc8-85d2-4767-82e6-4e2f95b225db)
+
+Role: 3 ja userId: 2342384
+
+##### kolmas osio:
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/cf1b8556-7c9a-4aae-a374-f9960f4d1061)
+
+Tehtävässä pitää syöttää url, joka osoittaa tom cat profiiliin. Kaikki sivuston osoitteet ovat olleet /IDOR/..., joten syötin WebGoat/IDOR/profile/<aiemman tehtävän userId>
+
+
+
 
 ## Lähteet 
 
