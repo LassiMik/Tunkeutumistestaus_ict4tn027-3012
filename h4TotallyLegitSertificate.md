@@ -150,7 +150,7 @@ Tehtävän tarkoitus on etsiä carlos nimisen käyttäjän salasana. Sivustossa 
 
 #### e) File path traversal, traversal sequences blocked with absolute path bypass
 
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/bc69434b-6369-47bf-bec1-11e3c64b456e)
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/43fc1cae-e0e7-410b-b929-66604069dfc4)
 
 #### f) File path traversal, traversal sequences stripped non-recursively
 
