@@ -203,6 +203,9 @@ Webgoat toimii nyt.
 
 Voidaan päätellä, että session id eli ensimmäinen lukusarja ennen "-" on 82 päättyinen.
 
+"-" jälkeinen numerosarja on kinkkisempi. 5 viimeistä numeroa ovat erilaiset ja oikea loppu on lukujen 69892 ja 70036 väliltä.
+
+
 ## Lähteet 
 
  - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/
