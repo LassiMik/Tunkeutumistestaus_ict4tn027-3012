@@ -264,6 +264,10 @@ Vaihdoin pyynnön tyypiksi GET sekä content-typeksi "application/json"
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/8ee4a2f4-de26-477c-9894-532985869475)
 
+Tässä vielä GET pyyntö 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/18625ffb-71d2-438b-952c-51d26f2cfda7)
+
 En osaa edetä, palvelin antaa 500 internal server erroria jokaiseen yritykseen.
 
 ## Lähteet 
