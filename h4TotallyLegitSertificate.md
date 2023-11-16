@@ -149,15 +149,30 @@ Tehtävän tarkoitus on etsiä carlos nimisen käyttäjän salasana. Sivustossa 
 
 #### e) File path traversal, traversal sequences blocked with absolute path bypass
 
-
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/bc69434b-6369-47bf-bec1-11e3c64b456e)
 
 #### f) File path traversal, traversal sequences stripped non-recursively
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/5e3fc695-f484-4a03-a8cf-88dc2d241948)
+
 ### Server Side Template Injection (SSTI)
+
+#### g) Server-side template injection with information disclosure via user-supplied objects
+
 
 ### Server Side Request Forgery (SSRF)
 
+#### h) Basic SSRF against the local server
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/0385d636-aade-4154-8be6-18f19f0d061b)
+
 ### Cross Site Scripting (XSS)
+
+#### i) Reflected XSS into HTML context with nothing encoded
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/24314acb-4968-422b-ae8d-9f2b8c6d686a)
+
+
 
 ## k) Asenna Webgoat 2023.4. (Uusi versio, jossa on eri tehtäviä kuin vanhemmissa)
 Latasin webgoatin [Täältä](https://github.com/WebGoat/WebGoat/releases) . Käynnistin webgoatin komennolla 
