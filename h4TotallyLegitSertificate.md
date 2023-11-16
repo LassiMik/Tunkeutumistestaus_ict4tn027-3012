@@ -225,6 +225,37 @@ Role: 3 ja userId: 2342384
 
 Tehtävässä pitää syöttää url, joka osoittaa tom cat profiiliin. Kaikki sivuston osoitteet ovat olleet /IDOR/..., joten syötin WebGoat/IDOR/profile/<aiemman tehtävän userId>
 
+##### neljäs osio:
+
+Tehtävänä on käyttää aikaisempien osioiden temppuja ja löytää uusi käyttäjä järjestelmästä userId:n avulla. En osaa käyttää ZAPin fuzzeria tai muuta, joka automaattisesti syöttää numeroita ja korottaa niitä yhdellä. 
+Syötin manuaalisesti isompia numeroita ja aloitin aiemmin löydetystä userId:stä. En kerennyt kokeilla montaa kunnes vastaan tuli käyttäjä "Buffalo Bill"
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c730164d-9fc3-44d5-acd0-ab33ac32dd5d)
+
+Buffalo Billin userId on 2342388 
+
+#### Missing Function Level Access Control (3)
+
+##### 1:
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c4408a7d-ec41-44de-8f10-7c42cde21385)
+
+Inspect element 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/abaa8bc0-cc09-49ec-92a8-a6fc48da6c22)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6400cecc-c0db-419b-94a1-42f1e94aab33)
+
+ja
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/6e52b1bd-2f09-49a3-8129-26f1c6c41e2b)
+
+##### 2:
+
+
+Palvelin vastasi "unsupported media type" 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/390eca5b-702e-4e49-91a1-fe93f8207546)
 
 
 
