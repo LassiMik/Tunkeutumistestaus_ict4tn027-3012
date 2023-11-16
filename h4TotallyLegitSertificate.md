@@ -143,6 +143,15 @@ Tehtävän tarkoitus on etsiä carlos nimisen käyttäjän salasana. Sivustossa 
 
 ### Path traversal
 
+#### d) File path traversal, simple case
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/198df745-0a5b-4ebc-bef6-ee916e3b4a90)
+
+#### e) File path traversal, traversal sequences blocked with absolute path bypass
+
+
+
+#### f) File path traversal, traversal sequences stripped non-recursively
 
 ### Server Side Template Injection (SSTI)
 
