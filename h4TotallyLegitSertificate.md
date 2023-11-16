@@ -270,6 +270,30 @@ Tässä vielä GET pyyntö
 
 En osaa edetä, palvelin antaa 500 internal server erroria jokaiseen yritykseen.
 
+
+#### Spoofing an Authentication Cookie (1)
+
+Aloitin kirjautumalla annetuilla tunnuksilla "admin" "admin"
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4b23fa34-5cbd-47bd-b6c0-4641c1e78838)
+
+Syötin koodisarjan base64 [decoderiin](https://www.base64decode.org/)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/7232b782-f2db-493a-9759-03906cd043c4)
+
+base64 decoder palauttaa hexadesimaali arvoja 
+
+Käytin hexadesimal [decoderia](https://cryptii.com/pipes/hex-decoder)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/47ef0c79-7387-45f8-9abe-93ea1d8db392)
+
+tekstin lopussa admin lukee väärinpäin
+
+Vaihdoin adminin tilalle "tom" ja toistin saman koodaus ketjun toisin päin. Lisäsin POST pyyntöön uuden spoof_auth cookien
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/dbf16219-9fe3-4079-9d33-b7a38fe6a2d6)
+
+
 ## Lähteet 
 
  - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/
@@ -279,5 +303,7 @@ En osaa edetä, palvelin antaa 500 internal server erroria jokaiseen yritykseen.
  - PortSwigger Server-side template injection https://portswigger.net/web-security/server-side-template-injection
  - PortSwigger Cross-site scripting https://portswigger.net/web-security/cross-site-scripting
  - Karvinen 2020: Using New Webgoat 2023.4 to Try Web Hacking https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/
+ - base64 decoder https://www.base64decode.org/
+ - hex decoder https://cryptii.com/pipes/hex-decoder
 
 
