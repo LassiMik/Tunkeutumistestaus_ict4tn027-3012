@@ -93,6 +93,7 @@ java -jar ZAP_2.14.0/zap-2.14.0.jar
 ### proxyn asentaminen hakukoneeseen
 
 Zap options kohdassa kirjoitin hakuun "network"
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/d0e0328e-23b5-4a8d-ab43-e6dd64ecd974)
 
 Tallensin sertifikaatin koneelleni. 
