@@ -172,6 +172,9 @@ Tehtävän tarkoitus on etsiä carlos nimisen käyttäjän salasana. Sivustossa 
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/24314acb-4968-422b-ae8d-9f2b8c6d686a)
 
+#### j) Stored XSS into HTML context with nothing encoded
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/65ea17da-569b-41b9-b712-bbb6674c64de)
 
 
 ## k) Asenna Webgoat 2023.4. (Uusi versio, jossa on eri tehtäviä kuin vanhemmissa)
