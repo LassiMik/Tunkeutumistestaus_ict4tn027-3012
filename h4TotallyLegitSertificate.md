@@ -252,12 +252,19 @@ ja
 
 ##### 2:
 
+Vaihdoin aikaisemmassa tehtävässä saadun osoitteen post pyyntöön
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/45fdda02-90e0-4166-b324-b017a0ccf6b6)
 
 Palvelin vastasi "unsupported media type" 
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/390eca5b-702e-4e49-91a1-fe93f8207546)
 
+Vaihdoin pyynnön tyypiksi GET sekä content-typeksi "application/json"
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/8ee4a2f4-de26-477c-9894-532985869475)
+
+En osaa edetä, palvelin antaa 500 internal server erroria jokaiseen yritykseen.
 
 ## Lähteet 
 
