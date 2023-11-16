@@ -277,13 +277,13 @@ Aloitin kirjautumalla annetuilla tunnuksilla "admin" "admin"
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4b23fa34-5cbd-47bd-b6c0-4641c1e78838)
 
-Syötin koodisarjan base64 [decoderiin](https://www.base64decode.org/)
+Syötin koodisarjan [base64 decoderiin](https://www.base64decode.org/)
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/7232b782-f2db-493a-9759-03906cd043c4)
 
 base64 decoder palauttaa hexadesimaali arvoja 
 
-Käytin hexadesimal [decoderia](https://cryptii.com/pipes/hex-decoder)
+Käytin [hexadesimal decoderia](https://cryptii.com/pipes/hex-decoder)
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/47ef0c79-7387-45f8-9abe-93ea1d8db392)
 
