@@ -293,6 +293,20 @@ Vaihdoin adminin tilalle "tom" ja toistin saman koodaus ketjun toisin päin. Lis
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/dbf16219-9fe3-4079-9d33-b7a38fe6a2d6)
 
+### n) (A7) Identity & Auth Failure (WebGoat 2023.4)
+
+#### Authentication Bypasses (1)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/274ebe3e-7bbc-496c-8a9b-9b58ac9ed7ce)
+
+post pyyntö jonka bodyssä "secQuestion0" ja "secQuestion1"
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/be363684-ab42-4fab-8cd1-7ef584aedbef)
+
+sec questionit vaihdettu "secQuestionA" ja "secQuestionB"
+
+### Insecure Login (1)
+
 
 ## Lähteet 
 
@@ -305,5 +319,6 @@ Vaihdoin adminin tilalle "tom" ja toistin saman koodaus ketjun toisin päin. Lis
  - Karvinen 2020: Using New Webgoat 2023.4 to Try Web Hacking https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/
  - base64 decoder https://www.base64decode.org/
  - hex decoder https://cryptii.com/pipes/hex-decoder
+ - Webgoat tehtävissä käytetty Max Integrations youtubekanavan videoita apuna https://www.youtube.com/@MaxInteg
 
 
