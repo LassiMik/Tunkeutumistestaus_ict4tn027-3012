@@ -307,6 +307,7 @@ sec questionit vaihdettu "secQuestionA" ja "secQuestionB"
 
 ### Insecure Login (1)
 
+Tässä vaiheessa meni osaamisen yli tehtävien taso. Jatkan ehkä jos keksin vielä jotain.
 
 ## Lähteet 
 
