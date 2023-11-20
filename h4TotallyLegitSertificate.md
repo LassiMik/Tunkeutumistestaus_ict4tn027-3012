@@ -134,7 +134,7 @@ Lisäsin ZAP-proxyn foxyproxyyn
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c5ba8c47-6832-4dd7-ab42-5fc24f261612)
 
-## PortSwigger Labs. Ratkaise tehtävät. Selitä ratkaisusi: mitä palvelimella tapahtuu, mitä eri osat tekevät, miten hyökkäys löytyi, mistä vika johtuu
+## PortSwigger Labs. Ratkaise tehtävät. 
 
 ### Insecure Direct Object Reference (IDOR)
 
