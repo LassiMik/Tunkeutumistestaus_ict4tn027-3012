@@ -24,7 +24,7 @@ tietokannan sisällä voi syöttää sql lausekkeita.
 postgressä yhdenllä numerolla kasvavan pääavaimen voi luoda syntaksilla "SERIAL PRIMARY KEY"
 Muuten syntaksi on samanlaista, kuin muissa isoissa sql tietokannan hallintajärjestelmissä
 
-### OWASP 2017: A1:2017-Injection
+### [OWASP 2017: A1:2017-Injection](https://owasp.org/www-project-top-ten/2017/A1_2017-Injection)
 
  - OWASP:in artikkeli A1:2017-injection kertoo injektioheikkoudesta, missä ei tunnistettu käyttäjä voi syötää haitallista tekstiä
 mihin vain tekstikenttiin tai selaimen hakukenttään. 
@@ -37,7 +37,7 @@ mihin vain tekstikenttiin tai selaimen hakukenttään.
 
 - Injektiohaavoittuvuus voi johtaa tietojen katoamiseen, -korruptoitumiseen tai -paljastamiseen luvattomille osapuolille, vastuun menettämiseen tai pääsyn epäämiseen. Injektio voi joskus johtaa täydelliseen isäntäkoneen haltuunottoon.
 
-### PortSwigger Academy: SQL injection
+### [PortSwigger Academy: SQL injection](https://portswigger.net/web-security/sql-injection)
 
 
 
