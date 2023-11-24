@@ -93,7 +93,7 @@ DELETE
 Nettisivusto, jolla haetaan käyttäjän id:llä tiettyä käyttäjää
 
 ```
-"SELECT * FROM Users WHERE UserId = " + käyttäjän_syöte
+"SELECT * FROM names WHERE UserId = " + käyttäjän_syöte
 ```
 
 Ohjelmassa on valmiina lainausmerkkien sisällä oleva osio ja tietokantaan syötetään suoraan käyttäjän syöte
