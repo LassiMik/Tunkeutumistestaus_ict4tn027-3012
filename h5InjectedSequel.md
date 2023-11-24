@@ -60,7 +60,44 @@ psql
 
 ### demonstroi sillä create, read, update, delete (CRUD). Taulujen nimet monikossa, kenttien nimet yksikössä, molemmat englanniksi.
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/d53c3281-73fd-4048-8c32-fbba816ef23f)
 
+Kohtasin ongelman create lausekkeessa. "permission denied for schema public". Etsin netistä [tietoa](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql-linux/) 
+
+Korjasin ongelman vaihtamalla postgre käyttäjäksi, jonka postgresql loi automaattisesti
+
+```
+sudo -i -u postgres
+```
+CREATE
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4a957b1c-593b-45d5-9db1-391ba3dd6941)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/a928ba80-cbd8-4919-9d3e-b1000327406c)
+
+READ
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/702f4e29-cfeb-4b04-b160-5f4e2835c58a)
+
+UPDATE 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/1680e2c2-faef-4652-a930-5666561ecc9e)
+
+DELETE 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f6696b94-36b2-4aa6-b5c8-f38b39bd1f24)
+
+
+## b) SQLi me. Kuvaile yksinkertainen SQL-injektio, ja demonstroi se omaan tietokantaasi psql-komennolla. Selitä, mikä osa on käyttäjän syötettä ja mikä valmiina ohjelmassa.
+
+Nettisivusto, jolla haetaan käyttäjän id:llä tiettyä käyttäjää
+
+```
+"SELECT * FROM Users WHERE UserId = " + käyttäjän_syöte
+```
+
+Ohjelmassa on valmiina lainausmerkkien sisällä oleva osio ja tietokantaan syötetään suoraan käyttäjän syöte
+Jos käyttäjän syöte on esimerkiksi ```1 OR 1=1```
 
 
 ## Lähteet 
@@ -70,6 +107,8 @@ psql
  - https://owasp.org/www-project-top-ten/2017/A1_2017-Injection
 
  - https://portswigger.net/web-security/sql-injection
+
+ - https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql-linux/
 
 
 
