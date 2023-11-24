@@ -97,7 +97,10 @@ Nettisivusto, jolla haetaan käyttäjän id:llä tiettyä käyttäjää
 ```
 
 Ohjelmassa on valmiina lainausmerkkien sisällä oleva osio ja tietokantaan syötetään suoraan käyttäjän syöte
-Jos käyttäjän syöte on esimerkiksi ```1 OR 1=1```
+Jos käyttäjän syöte on esimerkiksi ```1 OR 1=1``` tietokanta palauttaa kaikki käyttäjät, koska ```1=1``` on aina tosi
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/a3fd433e-6428-4c21-8afc-6ab7b1941c87)
+
 
 
 ## Lähteet 
