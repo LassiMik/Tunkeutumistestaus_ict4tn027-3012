@@ -45,13 +45,23 @@ mihin vain tekstikenttiin tai selaimen hakukenttään.
  - SQL-injektion estäminen edellyttää parametroitujen kyselyjen, syötteiden validoinnin ja muiden suojaustoimenpiteiden käyttöä sen varmistamiseksi, että käyttäjien syötteitä käsitellään turvallisesti eivätkä ne aiheuta riskiä sovelluksen tietokannalle.
 
 
+## a) CRUD
+
+### Tee uusi PostgreSQL-tietokanta
+
+
+### demonstroi sillä create, read, update, delete (CRUD). Taulujen nimet monikossa, kenttien nimet yksikössä, molemmat englanniksi.
 
 
 
 
+## Lähteet 
 
+ - https://terokarvinen.com/2016/03/05/postgresql-install-and-one-table-database-sql-crud-tutorial-for-ubuntu/
 
+ - https://owasp.org/www-project-top-ten/2017/A1_2017-Injection
 
+ - https://portswigger.net/web-security/sql-injection
 
 
 
