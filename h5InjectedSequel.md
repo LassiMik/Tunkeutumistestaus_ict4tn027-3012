@@ -49,6 +49,14 @@ mihin vain tekstikenttiin tai selaimen hakukenttään.
 
 ### Tee uusi PostgreSQL-tietokanta
 
+Ajoin komennot postgresql lataamiseksi ja käynnistämiseksi
+```
+sudo apt-get -y install postgresql
+sudo systemctl start postgresql # needed in 2023
+sudo -u postgres createdb $(whoami)
+sudo -u postgres createuser $(whoami)
+psql
+```
 
 ### demonstroi sillä create, read, update, delete (CRUD). Taulujen nimet monikossa, kenttien nimet yksikössä, molemmat englanniksi.
 
