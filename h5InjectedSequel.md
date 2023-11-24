@@ -39,7 +39,10 @@ mihin vain tekstikenttiin tai selaimen hakukenttään.
 
 ### [PortSwigger Academy: SQL injection](https://portswigger.net/web-security/sql-injection)
 
-
+ - SQL-injektio on eräänlainen kyberhyökkäys, jossa hyökkääjä lisää haitallista SQL-koodia (Structured Query Language) verkkosovelluksen syöttökenttiin.
+ - Tämä voi manipuloida sovelluksen tietokantakyselyitä ja mahdollistaa luvattoman pääsyn arkaluonteisiin tietoihin, tietojen muokkaamisen tai jopa tietojen poistamisen.
+ - Haavoittuvuus syntyy, kun verkkosovellus ei tarkista tai puhdista käyttäjien syötteitä oikein, jolloin hyökkääjät voivat syöttää ja suorittaa omia SQL-komentojaan.
+ - SQL-injektion estäminen edellyttää parametroitujen kyselyjen, syötteiden validoinnin ja muiden suojaustoimenpiteiden käyttöä sen varmistamiseksi, että käyttäjien syötteitä käsitellään turvallisesti eivätkä ne aiheuta riskiä sovelluksen tietokannalle.
 
 
 
