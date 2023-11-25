@@ -101,6 +101,19 @@ Jos käyttäjän syöte on esimerkiksi ```1 OR 1=1``` tietokanta palauttaa kaikk
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/a3fd433e-6428-4c21-8afc-6ab7b1941c87)
 
+## PortSwigger Labs
+
+### d) SQL injection vulnerability allowing login bypass
+
+Kirjautuessa nettisivu lähettää post pyynnön, jonka bodyssä on username ja password
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f7fea92d-6105-4287-8f99-7086e5db65c4)
+
+Editoin post pyynnön usernamen ```administrator'--```
+
+```'--``` kommentoi pois kohdan, jossa tarkistetaan salasana ja päästään pelkästään käyttäjänimellä kirjautumaan.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c26b427c-6ca9-453c-a3b2-46f3e4a202b6)
 
 
 ## Lähteet 
