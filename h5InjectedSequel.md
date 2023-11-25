@@ -116,6 +116,9 @@ Editoin post pyynnön usernamen ```administrator'--```
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c26b427c-6ca9-453c-a3b2-46f3e4a202b6)
 
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/7775c3a6-23a3-4ffc-a53f-4df7fdb36f72)
+
+
 ## Lähteet 
 
  - https://terokarvinen.com/2016/03/05/postgresql-install-and-one-table-database-sql-crud-tutorial-for-ubuntu/
