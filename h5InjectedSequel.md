@@ -118,6 +118,33 @@ Editoin post pyynnön usernamen ```administrator'--```
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/7775c3a6-23a3-4ffc-a53f-4df7fdb36f72)
 
+### e) SQL injection attack, querying the database type and version on Oracle
+
+Tehtävässä käytetään "Union select" sql lausetta. En ole aikaisemmin käyttänyt lauseketta. 
+
+Nappasin kategoriavalikon pyynnön zapilla. Vaihdoin GET pyynnön "category" filtterin. ```'+UNION+SELECT+BANNER,+NULL+FROM+v$version--```
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/10b24ed8-2cda-412b-ac67-366161a05b8e)
+
+Uusi filtteri saa palvelimen vastaamaan sen versionumerolla.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e203f565-f8bc-48b4-b141-82afa699b9d4)
+
+
+### f) SQL injection attack, querying the database type and version on MySQL and Microsoft
+
+### g) SQL injection attack, listing the database contents on non-Oracle databases
+
+### h) SQL injection UNION attack, determining the number of columns returned by the query
+
+### i) SQL injection UNION attack, retrieving data from other tables
+
+### j) SQL injection UNION attack, retrieving multiple values in a single column
+
+
+
+
+
 
 ## Lähteet 
 
