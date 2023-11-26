@@ -229,6 +229,8 @@ Haku palauttaa käyttäjien tiedot
 
 ## Lähteet 
 
+ - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/
+
  - https://terokarvinen.com/2016/03/05/postgresql-install-and-one-table-database-sql-crud-tutorial-for-ubuntu/
 
  - https://owasp.org/www-project-top-ten/2017/A1_2017-Injection
