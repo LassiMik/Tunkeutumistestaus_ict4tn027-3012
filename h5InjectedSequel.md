@@ -133,7 +133,27 @@ Uusi filtteri saa palvelimen vastaamaan sen versionumerolla.
 
 ### f) SQL injection attack, querying the database type and version on MySQL and Microsoft
 
+Tässä hyökkäyksessä käytetään samaa ```UNION SELECT``` lauseketta, kuin aikaisemmassa tehtävässä
+
+```'+UNION+SELECT+@@version,+NULL#```
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/90c7d119-23e3-407b-bd22-3982d5a47cc2)
+
+Joka palauttaa tietokannan version 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/831a49a7-2bf7-484e-9ce1-aa456836f375)
+
 ### g) SQL injection attack, listing the database contents on non-Oracle databases
+
+Sama kategorian hakupyyntö napataan zapilla. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/1b862c34-c945-419f-8243-ebd3e4baad19)
+
+Haku palauttaa kaikki SQL pöytien nimet. Pöytiä on paljon, mutta joukosta löytyi kaksi kiinnostavaa
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/03a03b05-add0-44ed-bd02-0022f5f62ed1)
+
+
 
 ### h) SQL injection UNION attack, determining the number of columns returned by the query
 
