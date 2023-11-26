@@ -149,9 +149,25 @@ Sama kategorian hakupyyntö napataan zapilla.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/1b862c34-c945-419f-8243-ebd3e4baad19)
 
-Haku palauttaa kaikki SQL pöytien nimet. Pöytiä on paljon, mutta joukosta löytyi kaksi kiinnostavaa
+Haku palauttaa kaikki SQL pöytien nimet. Pöytiä on paljon, mutta joukosta löytyi yksi kiinnostava, missä voi olla nimen perusteella käyttäjien tiedot
 
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/03a03b05-add0-44ed-bd02-0022f5f62ed1)
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/d2b23b96-8db0-437f-b557-59f3c49cd9c8)
+
+Kehitetään uusi injektio, jossa käytetään tietokantataulun nimeä
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c44e31fe-ed3a-481a-936c-3f9f565b5a85)
+
+Injektio palauttaa kaksi taulua. Toisessa käyttäjänimet ja toisessa salasanat
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/1e9eb72c-b3d1-4e57-b4e0-098dde07473f)
+
+Viimeisessä injektiossa käytetään kaikki oppimamme tieto kohteesta. ```'+UNION+SELECT+USERNAME_AULGXF,+PASSWORD_RKNXQL+FROM+USERS_IGMESX--```
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/0476baae-e0bb-4095-9a4b-cb57375bbd80)
+
+Saimme käyttäjien tiedot.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/14c1e2eb-ccec-4555-a76a-c8700dff594b)
 
 
 
