@@ -210,9 +210,21 @@ Palvelin palauttaa käyttäjien tiedot.
 
 ### j) SQL injection UNION attack, retrieving multiple values in a single column
 
+Sama tarkastus alkuun. ```'+UNION+SELECT+NULL,'abc'--```
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/552358bc-1a31-49a8-8450-74083586dbb2)
 
+Tälläkertaa tietokanta palauttaa vain yhden kolumnin tietoa.
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c0904e5c-70f5-43cf-a5af-7a2a682f02e1)
+
+Joudutaan hakemaan tietoa eritavalla, kun tietokanta palauttaa vain yhden kolumnin tietoa, eikä kaksi eli username ja password. Taulut pitää liittää yhteen. "||" eli pipet yhdistävät kahden haun tiedot. Lisäsin pipejen väliin välilyönnin, jotta tiedot olisivat helpommin luettavissa.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/ba505157-2114-468d-9fe7-3fb06cfcab48)
+
+Haku palauttaa käyttäjien tiedot
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/b9ad75f3-b4eb-497a-8ca5-3d790e7e56b6)
 
 
 ## Lähteet 
@@ -224,6 +236,8 @@ Palvelin palauttaa käyttäjien tiedot.
  - https://portswigger.net/web-security/sql-injection
 
  - https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql-linux/
+
+ - https://www.ibm.com/docs/en/informix-servers/14.10?topic=expression-concatenation-operator
 
 
 
