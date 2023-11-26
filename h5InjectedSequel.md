@@ -169,11 +169,44 @@ Saimme käyttäjien tiedot.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/14c1e2eb-ccec-4555-a76a-c8700dff594b)
 
+Kirjaudutaan vielä administratorin tilille.
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f25b6d30-2754-4cdf-bd2d-f2ef8088eafe)
 
 ### h) SQL injection UNION attack, determining the number of columns returned by the query
 
+Tehtävässä päätellään UNION injektiohyökkäyksellä, montako kolumnia haku palauttaa.
+
+```'+UNION+SELECT+NULL--``` Tehtävässä lisätään null arvoja, kunnes palvelin palauttaa null arvoja
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/b5b74e50-73de-45f9-a3bd-4c630510d585)
+
+Kolmen nullin kohdalla palvelin palautti normaalit tiedot 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/a4cc7265-711b-4519-981a-027c235b7feb)
+
+Neljällä nullilla tehtävä onnistui, mutta en saanut null arvoja palvelimelta
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/7b5b24e1-eb95-41f1-8fda-1f9838582f3e)
+
 ### i) SQL injection UNION attack, retrieving data from other tables
+
+Testataan aluksi montako kolumnia tietokanta palauttaa
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c70e4ef2-0ad6-4a9d-8448-eeab19fb1223)
+
+kaksi.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/65e87a33-f404-47c6-9d85-200e6cb765c4)
+
+Käytetään samaa ```UNION SELECT``` lauseketta.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/06b88b7e-aa67-44e6-9e72-829bae0cdf55)
+
+Palvelin palauttaa käyttäjien tiedot.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/1f06c179-55ec-4054-93ab-942d23b1a090)
+
 
 ### j) SQL injection UNION attack, retrieving multiple values in a single column
 
