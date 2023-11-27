@@ -137,6 +137,10 @@ Uusi filtteri saa palvelimen vastaamaan sen versionumerolla.
 
 Tässä hyökkäyksessä käytetään samaa ```UNION SELECT``` lauseketta, kuin aikaisemmassa tehtävässä
 
+Tähän lisätään haku, jolla nähdään tietokannan versio. 
+
+Löysin [täältä](https://portswigger.net/web-security/sql-injection/cheat-sheet) , millä saadaan tietokannan versio selvitettyä.
+
 ```'+UNION+SELECT+@@version,+NULL#```
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/90c7d119-23e3-407b-bd22-3982d5a47cc2)
@@ -240,6 +244,8 @@ Haku palauttaa käyttäjien tiedot
  - https://portswigger.net/web-security/sql-injection
 
  - https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql-linux/
+
+ - https://portswigger.net/web-security/sql-injection/cheat-sheet
 
  - https://www.ibm.com/docs/en/informix-servers/14.10?topic=expression-concatenation-operator
 
