@@ -122,7 +122,14 @@ Editoin post pyynnön usernamen ```administrator'--```
 
 Tehtävässä käytetään "Union select" sql lausetta. En ole aikaisemmin käyttänyt lauseketta. 
 
-Nappasin kategoriavalikon pyynnön zapilla. Vaihdoin GET pyynnön "category" filtterin. ```'+UNION+SELECT+BANNER,+NULL+FROM+v$version--```
+Katsoin apua alkuun "walkthrough" kohdasta. 
+
+Tehtävässä ensiksi tarkastetaan montako kolumnia tietoa tietokanta palauttaa ```"+UNION+SELECT+'abc','def'+FROM+dual--" ```
+Nappasin kategoriavalikon pyynnön zapilla. Vaihdoin GET pyynnön "category" filtterin yllä olevalla lausekkeella. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/53fbd5bc-5706-45b5-870f-2078a31b1ab3)
+
+Seuraavaksi vaihdoin category fillterin ```'+UNION+SELECT+BANNER,+NULL+FROM+v$version--```
 
 SQL ```UNION``` antaa meidän tehdä uuden sql SELECT komennon valmiin selectin sisällä. Normaalisti UNION komentoa käytetään useamman select lauseen liittämiseen toisiinsa.
 
