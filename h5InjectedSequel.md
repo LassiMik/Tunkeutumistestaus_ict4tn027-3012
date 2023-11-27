@@ -124,6 +124,8 @@ Tehtävässä käytetään "Union select" sql lausetta. En ole aikaisemmin käyt
 
 Nappasin kategoriavalikon pyynnön zapilla. Vaihdoin GET pyynnön "category" filtterin. ```'+UNION+SELECT+BANNER,+NULL+FROM+v$version--```
 
+SQL ```UNION``` antaa meidän tehdä uuden sql SELECT komennon valmiin selectin sisällä. Normaalisti UNION komentoa käytetään useamman select lauseen liittämiseen toisiinsa.
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/10b24ed8-2cda-412b-ac67-366161a05b8e)
 
 Uusi filtteri saa palvelimen vastaamaan sen versionumerolla.
