@@ -153,6 +153,10 @@ Joka palauttaa tietokannan version
 
 Sama kategorian hakupyyntö napataan zapilla. 
 
+Miten selvitän kaiken tietokannan tiedon? Katsoin apua tehtävän solution kohdasta. 
+
+```+UNION+SELECT+table_name,NULL+FROM+all_tables--``` on oikea skripti, kokeilen sitä.
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/1b862c34-c945-419f-8243-ebd3e4baad19)
 
 Haku palauttaa kaikki SQL pöytien nimet. Pöytiä on paljon, mutta joukosta löytyi yksi kiinnostava, missä voi olla nimen perusteella käyttäjien tiedot
