@@ -116,6 +116,9 @@ Kokeilin avata "company raport" tiedoston. Sain kuitenkin virheilmoituksen, ett�
 
 Polku oli väärä, koska olin siirtänyt kansion työpöydälle
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/440843fd-a79d-45a4-b946-6bc735315fd5)
+
+En voi siirtää myöskään tiedostoa D: levylle.
 
 ## d) PageRank.
 
