@@ -2,6 +2,28 @@
 
 ## x) Lue/katso/kuuntele ja tiivistä.
 
+### Yehoshua and Kosayev 2021: Antivirus Bypass Techniques, luku: Chapter 1: Introduction to the Security Landscape
+
+ - Kappaleessa käsitellään tietokoneviruksia ja niiden tyyppejä, tietokoneen suojausjärjestelmiä, Antiviruksen alkeita sekä miten ohitetaan antivirus.
+ - Tietokonevirus tarkoittaa koodia, hyötykuormaa tai tiedostoa, jonka tarkoitus on päästä kohdejärjestelmään sekä aiheuttaa vahinkoa kohteeseen. Tietokoneviruksella päätarkoitukset on antaa tunkeutujalle täysi pääsy kohteen järjestelmään, varastaa tietoja, kuten salasanoja tai salata tiedostot ja pyytää lunnaita. Tarkoituksia on monia ja niissä on rajana vain tunkeutujan mielikuvitus.
+ - Antivirukset eivät ole täydellisiä ja artikkelissa onnistuttiin lataamaan tiedosto, joka loi "reverse shellin" kohdejärjestelmään. Reverse shell avaa satunnaisen portin kohdejärjestelmästä, joka ottaa yhteyden tunkeutujan palvelimeen.
+
+### Halonen, Rajala ja Ollikainen 2023: PhishSticks Youtube Channel, kahdeksan videota, yhteensä noin 15 min
+
+ - PhishSticks kanavalla demotaan Bad Usb:tä, joka näyttää usb tikulta, mutta tökätessään se hakee windows powershellin avulla hyötykuorman kohdejärjestelmään
+ - Powershellin avaus tapahtuu niin nopeasti, että se voi jäädä huomaamatta.
+ - Hyötykuorma, jonka bad usb latasi on "keylogger" eli se nauhoittaa kaikki napinpainallukset, mitä kohdejärjestelmässä tapahtuu.
+ - Keyloggerin avulla tunkeutuja yrittää saada arkaluontoista tietoa, kuten käyttäjätunnuksia ja salasanoja
+
+### Halonen, Rajala ja Ollikainen 2023: PhishSticks Git Repository, sivut:
+
+#### README.md
+
+ - readmessä käydään viikko kerrallaan PhishSticksin kehitys läpi.
+ - Viikko 39 ja 40 käytettiin itse feikki usb tikun tekemiseen. Alusta, jossa koodi pyörii on "digispark" ja se käärittiin muoviseen koteloon, jotta se näyttäisi oikealta usb tikulta.
+ - Viikolla 41 windows defender otti kiinni ensimmäiset yritykset keyloggerista. Ongelma saaatiin kuitenkin nopeasti korjattua. Windows defender osaa lukea koodin sisällön ja ei tykkää, jos siellä lukee sanoja, kuten "keylogger".
+ - Viikolla 48 projekti oli valmis ja se esiteltiin HelSec tapahtumassa.
+
 ## a) The OS pwns you.
 
 Latasin windows .iso tiedoston [täältä](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise) Valitsin english(Great Britain) ja 64-bittinen versio.
@@ -44,5 +66,11 @@ Jostain syystä kali ei voinut pingata windows konetta. Sama ongelma oli ohjeist
 
 
 # Lähteet
+
+ - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/
+
+ - https://learning.oreilly.com/library/view/antivirus-bypass-techniques/9781801079747/B17257_01_Epub_AM.xhtml#_idParaDest-18
+
+ - https://www.youtube.com/@phishsticks_pentest/videos
 
  - Windows asennus - https://github.com/therealhalonen/PhishSticks/blob/master/notes/ollikainen/windows.md
