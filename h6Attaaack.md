@@ -90,6 +90,33 @@ Jostain syystä kali ei voinut pingata windows konetta. Sama ongelma oli ohjeist
 
 ## b) Trustme.lnk.
 
+Latasin koko revshell kansion github [download-directoryn](https://download-directory.github.io/) avulla
+
+Ladattuani kansion avasin revsh tiedoston notepadilla
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c3f9b12e-886a-42e0-99f4-e48f990f398d)
+
+Tiedostossa pitää vaihtaa pari kohtaa hyökkääjän ip-osoitteella.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/3184b764-3b56-402e-845e-f3f1282eeb3c)
+
+Vaihdoin kohdat ja nyt pitää valita vielä portti hyökkäyskoneelta
+
+Avasin portin hyökkäyskoneelta
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/10ec6075-4c52-4610-a6b0-6106104256d5)
+
+Vaihdoin saman portin tiedostoon.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/8915d64c-a2f6-4be6-92c6-698a5c94fcf4)
+
+Kokeilin avata "company raport" tiedoston. Sain kuitenkin virheilmoituksen, että payloadia ei löydy
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/754dac79-d3a9-4864-ab42-e83d178c6288)
+
+Polku oli väärä, koska olin siirtänyt kansion työpöydälle
+
+
 ## d) PageRank.
 
 ## c) Attaaack!
