@@ -24,6 +24,22 @@
  - Viikolla 41 windows defender otti kiinni ensimmäiset yritykset keyloggerista. Ongelma saaatiin kuitenkin nopeasti korjattua. Windows defender osaa lukea koodin sisällön ja ei tykkää, jos siellä lukee sanoja, kuten "keylogger".
  - Viikolla 48 projekti oli valmis ja se esiteltiin HelSec tapahtumassa.
 
+#### Revshell
+
+ - USB tikun sisällä on "company raport" tiedosto, jos tiedosto avataan kohdekoneella se lataa raport.txt tiedoston sekä netcat-ohjelmiston, jota tunkeutujat käyttävät yhteyden luomiseen sekä portin avaamiseen.
+ - raport.txt:n ainoa tarkoitus on hämätä käyttäjää. 
+
+#### Mitigations
+
+ - Helpoin tapa estää tikun toimiminen on poistaa powershellin käyttö koneelta. USB:n sisällä oleva digispark tarvitsee powershelliä saadakseen hyötykuormat kohdejärjestelmään.
+ - Toinen tapa on lisätä powershell windowsin palomuuriasetuksiin.
+ - Myös tapa estää USB tikun toimiminen on poistaa käytöstä windows run. 
+
+#### Installing Windows 10 on a virtual machine
+
+ - Käyn tarkemmin windowsin asennuksen virtuaalikoneelle kohdassa a)
+ - Noudatin kohdassa a) tämän kappaleen oppeja
+
 ## a) The OS pwns you.
 
 Latasin windows .iso tiedoston [täältä](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise) Valitsin english(Great Britain) ja 64-bittinen versio.
