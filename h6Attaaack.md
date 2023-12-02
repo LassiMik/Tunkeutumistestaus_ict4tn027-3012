@@ -47,6 +47,13 @@
  - Techniques edustavat miten tunkeutuja pääsee päämääräänsä. Mitä tunkeutumistekniikoita hän käyttää?
  - Procedures ovat erityinen toteutus, jota hyökkääjä on päättänyt käyttää kohteeseensa saavuttaakseen päämääränsä. Proceduret vaihtelevat riippuen aiemmista kohdista. 
 
+### MITRE Att&ck Enterprise Matrix
+
+ - MITRE:n hyökkäysmatriksi on laaja. Matriksia luetaan vasemmalta oikealle. Matriksi alkaa cyberkillchainin mukaisesti tiedustelusta.
+ - Tactics eli taktiikat ovat tekniikoiden päällä. Taktiikoiden alta löytyy paljon tekniikkoja. Esimerkiksi "Reconnaissance" eli tiedustelun alta löytyy monta eri tekniikkaa toteuttaa tiedustelu.
+ - Esimerkki tekniikasta toteuttaa tiedostelu on "Phising for information" eri suomeksi kalastelu. Tekniikan voi avata ja tekniikasta on monta eri esimerkki procedurea.
+ - Procedureista on esimerkkejä. "Phising for information" yksi esimerkki on "ZIRCONIUM targeted presidential campaign staffers with credential phishing e-mails."
+
 ## a) The OS pwns you.
 
 Latasin windows .iso tiedoston [täältä](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise) Valitsin english(Great Britain) ja 64-bittinen versio.
