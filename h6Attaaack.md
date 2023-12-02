@@ -120,6 +120,9 @@ Polku oli väärä, koska olin siirtänyt kansion työpöydälle
 
 En voi siirtää myöskään tiedostoa D: levylle.
 
+En nyt saa tiedostoa toimimaan, mutta selitän kuitenkin dokumentaation avulla, mitä tiedoston olisi tarkoitus tehdä. Kansion sisällä oleva "company report" ajaa payload kansion sisällä olevan revsh skriptin, joka ottaa yhteyden hyökkääjän koneelle.
+Hyökkääjän koneella pyörii palvelin, josta revsh skripti lataa kaksi tiedostoa. raport.txt ja nc64.exe. Raport on vain hämäys, jotta kohde luulisi avaavan vain normaalin tekstitiedoston ja taustalla aloitetaan nc64 eli netcat prosessi. Netcatilla hyökkääjällä on reverse shell kohdejärjestelmään.
+
 ## d) PageRank.
 
 ## c) Attaaack!
