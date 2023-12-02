@@ -33,7 +33,7 @@ Kokeilin vielä koneitten yhteyttä pingaamalla molemmilta
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/360d06f8-846c-4f30-9476-ecf133c2c340)
 
-Jostain syystä kali ei voinut pingata windows konetta. Sama ongelma oli ohjeistuksessa, jota seurasin tehtävää varten. 
+Jostain syystä kali ei voinut pingata windows konetta. Sama ongelma oli ohjeistuksessa, jota seurasin tehtävää varten. Windows kuitenkin pystyi pingaamaan kalia, joten yhteys oli.
 
 
 ## b) Trustme.lnk.
