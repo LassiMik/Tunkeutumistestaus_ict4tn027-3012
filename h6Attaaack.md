@@ -40,6 +40,13 @@
  - Käyn tarkemmin windowsin asennuksen virtuaalikoneelle kohdassa a)
  - Noudatin kohdassa a) tämän kappaleen oppeja
 
+### MITRE Att&ck Frequently Asked Questions: Part 1. General.
+
+ - MITRE:n hyökkäysmatriksi on jaettu kolmeen osaan. Tactics, techniques ja procedures.
+ - Tactics edustavat hyökkäyksen syytä. Miksi tunkeutuja tekee jotain? Esimerkiksi käyttäjätietojen saaminen.
+ - Techniques edustavat miten tunkeutuja pääsee päämääräänsä. Mitä tunkeutumistekniikoita hän käyttää?
+ - Procedures ovat erityinen toteutus, jota hyökkääjä on päättänyt käyttää kohteeseensa saavuttaakseen päämääränsä. Proceduret vaihtelevat riippuen aiemmista kohdista. 
+
 ## a) The OS pwns you.
 
 Latasin windows .iso tiedoston [täältä](https://www.microsoft.com/en-us/evalcenter/download-windows-10-enterprise) Valitsin english(Great Britain) ja 64-bittinen versio.
