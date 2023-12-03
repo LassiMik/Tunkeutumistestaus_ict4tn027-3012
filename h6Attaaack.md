@@ -142,6 +142,8 @@ MITRE Attack Enterprise Matrix: Demonstroi viisi tekniikkaa viidestä eri taktii
 
 Hyödynnän tehtävässä kali konetta (192.168.131.5) sekä kohteena metasploitable2 konetta (192.168.131.3)
 
+### Reconnaissance
+
 Aloitan taktiikkojen valitsemisen cyber kill chainin mukaisesti "reconnaissance" eli tiedustelu. Tekniikka T1592 eli "Gather Victim host information" kerätään tietoja hostista (ip, käyttötarkoitus) sekä tietoja raudasta (mikä käyttis)
 
 Demossa olen samassa sisäisessä netissä kohteen kanssa. selvitän kohteen ip-osoitteen 
@@ -160,14 +162,28 @@ Saatiin enemmän tietoa kohdejärjestelmästä.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e0747ecc-392a-4e68-b39b-356f37f81a1b)
 
+### Resource Development
+
+Seuraava taktiikka on "Resource Development" eli Resurssien kehittäminen valitsen tekniikaksi "Acquire Access" 
+
+Acquire access hyödynnetään muiden keräämiä tietoja. Sivustoja joihin on kerätty "leakattuja" eli varastettuja salasanoja on monia. Näitä voi hyödyntää seuraavassa kohdassa eli "initial access"
+
+Käytän esimerkkinä [intelx](https://intelx.io/) sivustoa 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/7e6c115a-3551-498c-8be3-caf31b02682a)
+
+Sivustolla voi hakea leakattuja salasanatietoja. Useat käyttävät samaa salasanaa moneen eri paikkaan. 
 
 # Lähteet
 
  - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/
 
  - https://learning.oreilly.com/library/view/antivirus-bypass-techniques/9781801079747/B17257_01_Epub_AM.xhtml#_idParaDest-18
+   
  - https://attack.mitre.org/
 
  - https://www.youtube.com/@phishsticks_pentest/videos
 
  - Windows asennus - https://github.com/therealhalonen/PhishSticks/blob/master/notes/ollikainen/windows.md
+
+ - https://intelx.io/ 
