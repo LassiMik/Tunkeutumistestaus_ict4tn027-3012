@@ -122,8 +122,6 @@ Vaihdoin saman portin tiedostoon.
 
 Kokeilin avata "company raport" tiedoston. Windows defender ei saa yhteyttä internettiin. Painan "run"
 
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4e9b8ee0-b2cc-4cdd-bedd-983c3e6591a4)
-
 
 
 
