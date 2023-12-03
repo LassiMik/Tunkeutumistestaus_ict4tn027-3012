@@ -138,6 +138,27 @@ Hyökkääjän koneella pyörii palvelin, josta revsh skripti lataa kaksi tiedos
 ## d) PageRank.
 
 ## c) Attaaack!
+MITRE Attack Enterprise Matrix: Demonstroi viisi tekniikkaa viidestä eri taktiikasta.
+
+Hyödynnän tehtävässä kali konetta (192.168.131.5) sekä kohteena metasploitable2 konetta (192.168.131.3)
+
+Aloitan taktiikkojen valitsemisen cyber kill chainin mukaisesti "reconnaissance" eli tiedustelu. Tekniikka T1592 eli "Gather Victim host information" kerätään tietoja hostista (ip, käyttötarkoitus) sekä tietoja raudasta (mikä käyttis)
+
+Demossa olen samassa sisäisessä netissä kohteen kanssa. selvitän kohteen ip-osoitteen 
+
+```nmap -sn 192.168.131.5/24```
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/9ed576c7-e41f-4938-9513-304b1f4f379c)
+
+Tarkemmalla skannauksella eli 
+
+```nmap -A 192.168.131.3```
+
+Saatiin enemmän tietoa kohdejärjestelmästä.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4f921e65-c062-4152-8509-012be6023581)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e0747ecc-392a-4e68-b39b-356f37f81a1b)
 
 
 # Lähteet
