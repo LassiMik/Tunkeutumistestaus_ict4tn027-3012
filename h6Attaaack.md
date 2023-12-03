@@ -106,23 +106,16 @@ Lataan hyökkäyskoneelle vielä tarvittavat tiedostot
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/87621d3a-91ae-4b61-9994-6d6eef1355ca)
 
-Avasin portin hyökkäyskoneelta
-
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/10ec6075-4c52-4610-a6b0-6106104256d5)
-
-Vaihdoin saman portin tiedostoon.
-
-![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/8915d64c-a2f6-4be6-92c6-698a5c94fcf4)
+Pystytin vielä palvelimen, jonka kanssa windows kone tulee kommunikoimaan.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/135a3984-b27e-4f85-a527-aafb1cc09c55)
 
+Vaihdoin palvelimen portin windows koneen tiedostoon 
 
-
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/59b968dc-3570-46e6-92f4-799851312280)
 
 
 Kokeilin avata "company raport" tiedoston. Windows defender ei saa yhteyttä internettiin. Painan "run"
-
-
 
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/95a42a61-b662-4b35-8fbb-8dd21f3b0022)
