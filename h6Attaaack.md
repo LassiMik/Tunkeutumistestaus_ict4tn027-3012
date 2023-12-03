@@ -90,7 +90,7 @@ Jostain syystä kali ei voinut pingata windows konetta. Sama ongelma oli ohjeist
 
 ## b) Trustme.lnk.
 
-Latasin koko revshell kansion github [download-directoryn](https://download-directory.github.io/) avulla
+Latasin koko revshell kansion windows koneelle github [download-directoryn](https://download-directory.github.io/) avulla
 
 Ladattuani kansion avasin revsh tiedoston notepadilla
 
@@ -102,6 +102,10 @@ Tiedostossa pitää vaihtaa pari kohtaa hyökkääjän ip-osoitteella.
 
 Vaihdoin kohdat ja nyt pitää valita vielä portti hyökkäyskoneelta
 
+Lataan hyökkäyskoneelle vielä tarvittavat tiedostot 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/87621d3a-91ae-4b61-9994-6d6eef1355ca)
+
 Avasin portin hyökkäyskoneelta
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/10ec6075-4c52-4610-a6b0-6106104256d5)
@@ -110,7 +114,24 @@ Vaihdoin saman portin tiedostoon.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/8915d64c-a2f6-4be6-92c6-698a5c94fcf4)
 
-Kokeilin avata "company raport" tiedoston. Sain kuitenkin virheilmoituksen, että payloadia ei löydy
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/135a3984-b27e-4f85-a527-aafb1cc09c55)
+
+
+
+
+
+Kokeilin avata "company raport" tiedoston. Windows defender ei saa yhteyttä internettiin. Painan "run"
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4e9b8ee0-b2cc-4cdd-bedd-983c3e6591a4)
+
+
+
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/95a42a61-b662-4b35-8fbb-8dd21f3b0022)
+
+
+
+Sain kuitenkin virheilmoituksen, että payloadia ei löydy
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/754dac79-d3a9-4864-ab42-e83d178c6288)
 
