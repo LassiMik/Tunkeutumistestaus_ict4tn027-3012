@@ -166,6 +166,7 @@ Saatiin enemmän tietoa kohdejärjestelmästä.
  - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/
 
  - https://learning.oreilly.com/library/view/antivirus-bypass-techniques/9781801079747/B17257_01_Epub_AM.xhtml#_idParaDest-18
+ - https://attack.mitre.org/
 
  - https://www.youtube.com/@phishsticks_pentest/videos
 
