@@ -164,7 +164,7 @@ Saatiin enemmän tietoa kohdejärjestelmästä.
 
 ### Resource Development
 
-Seuraava taktiikka on "Resource Development" eli Resurssien kehittäminen valitsen tekniikaksi "Acquire Access" 
+Seuraava taktiikka on "Resource Development" eli Resurssien kehittäminen valitsen tekniikaksi "Acquire Access" T1650
 
 Acquire access hyödynnetään muiden keräämiä tietoja. Sivustoja joihin on kerätty "leakattuja" eli varastettuja salasanoja on monia. Näitä voi hyödyntää seuraavassa kohdassa eli "initial access"
 
@@ -173,6 +173,12 @@ Käytän esimerkkinä [intelx](https://intelx.io/) sivustoa
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/7e6c115a-3551-498c-8be3-caf31b02682a)
 
 Sivustolla voi hakea leakattuja salasanatietoja. Useat käyttävät samaa salasanaa moneen eri paikkaan. 
+
+### Credential Access
+
+Credential Access taktiikan alta löytyvä tekniikka "Brute Force: Password Guessing" T1110.001 
+Tarkoitukseen kehitetyllä ohjelmalla testataan eri sanoja tai sanapareja salasanan arvaamiseksi. 
+Esimerkiksi Ffuf ohjelmalle voi syöttää tekstitiedoston sanoja ja Ffuf syöttää kaikki sanat salasanakenttään.
 
 # Lähteet
 
