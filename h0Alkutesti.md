@@ -56,6 +56,8 @@ En ole aikaisemmin käyttänyt wiresharkia. Testieni perusteella wiresharkilla v
 
 ## Lähteet
 
+ - tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/#h0-alkutesti
+
  - wiresharkin lataus https://askubuntu.com/questions/700712/how-to-install-wireshark
 
  - wiresharkin käyttö https://www.wireshark.org/docs/wsug_html_chunked/ChCustCommandLine.html
