@@ -104,13 +104,15 @@ Kokeilen vielä salasanaa unzip komennolla.
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/bf66da67-835f-4efb-b4fc-d1344b8dfdc9)
 
-Toimii!
+Ohjelmisto siis toimii vaikka en asentanut kaikkia tarvittavia riippuvaisuuksia.
 
 # c) Ratkaise tiiviste
 
 Tehtävässä annetaan itse tiiviste ```f5bc7fcc7f5b3b6af7ff79e0feafad6d1a948b6a2c18de414993c1226be48c1f```
 
-Sekä vihje: "Käytin hyvin yleistä ja tunnettua tiivistealgoritmia. Sanassa voi olla isoja kirjaimia, mutta ei erikoismerkkejä"
+Sekä kaksi vihjettä, joista ensimmäinen on: "Käytin hyvin yleistä ja tunnettua tiivistealgoritmia. Sanassa voi olla isoja kirjaimia, mutta ei erikoismerkkejä"
+
+Ja toinen: "on erään tällä tehtäväsivulla olevan yksittäisen sanan tiiviste"
 
 Kokeilin ajaa hashid ohjelmistolla tiivisteen. 
 
@@ -121,6 +123,16 @@ Ajan hashcatilla ensimmäisen tarjotun vaihtoehdon, eli SHA-256 salauksen
 ```hashcat -m 0 'f5bc7fcc7f5b3b6af7ff79e0feafad6d1a948b6a2c18de414993c1226be48c1f' rockyou.txt```
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e2effd71-3250-413b-bcbb-20a554f2c8b2)
+
+Hashcat antaa vastauksen "exhausted" eli ei onnistuttu murtamaan tiivistettä. 
+
+Kokeilin vielä GOST R salausta 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/ae42412e-a1b6-418b-89fe-29da607af385)
+
+Sama tulos. 
+
+Tässä vaiheessa tajusin, että rockyou.txt käyttää englanninkielisiä sanoja, mutta sivusto on suomeksi. Toinen vihjeistä on, että kyseessä on sana, joka on tehtäväsivulla. Tarvitsen siis uuden sanakirjan.
 
 
 
