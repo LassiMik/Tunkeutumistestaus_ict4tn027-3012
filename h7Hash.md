@@ -18,6 +18,29 @@
 
 # a) Hashcat. Asenna Hashcat ja testaa sen toimivuus ratkaisemalla tiiviste.
 
+Hashcatin asennukseen ja käyttöön käytin Tero Karvisen [ohjetta](https://terokarvinen.com/2022/cracking-passwords-with-hashcat/)
+
+Asensin tarvittavat ohjelmat komennolla ```sudo apt-get -y install hashid hashcat wget```
+
+Tein uuden kansion hashcattia varten sekä latasin suuren sanakirjan. 
+
+```wget https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz```
+
+Tiedosto tulee .tar.gz muodossa. Muutetaan se tekstitiedostoksi. 
+
+```
+tar xf rockyou.txt.tar.gz
+rm rockyou.txt.tar.gz
+```
+
+Kokeilen vielä toimiiko ohjelmat. 
+Käytän testissä samaa hashia, kuin ohjeissa. ```6b1628b016dff46e6fa35684be6acc96```
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/a9a3f53a-b631-4854-89fb-ff9f772f13ef)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/585ba1cf-92d9-4636-ba13-5d775678a076)
+
+
 # b) John. Asenna Jumbo John ja testaa sen toimivuus murtamalla jonkin tiedoston salasana.
 
 # c) Ratkaise tiiviste
