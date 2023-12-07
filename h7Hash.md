@@ -9,6 +9,8 @@
  - Hashcat osaa nyt tunnistuksen sekä sanakirjan avulla murtaa salasanan.
  - Komennolla ```hashcat -m (hashid numero) 'hash' rockyou.txt(sanakirja) -o solved(jos haluaa tallentaa salasanan uuteen tiedostoon)```
 
+## Karvinen 2023: Crack File Password With John
+
 
 # a) Hashcat. Asenna Hashcat ja testaa sen toimivuus ratkaisemalla tiiviste.
 
@@ -22,5 +24,5 @@
 
  - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/#h7-hash
  - Karvinen 2022: Cracking Passwords with Hashcat https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
- - 
+ - Karvinen 2023: Crack File Password With John https://terokarvinen.com/2023/crack-file-password-with-john/
  - Rockyou sanakirja https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
