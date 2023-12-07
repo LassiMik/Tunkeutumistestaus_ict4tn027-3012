@@ -160,6 +160,15 @@ Ja uusi sanakirja toimi mahtavasti. Salaus on murrettu. Salasana on "Sertificate
 
 # d) Cheatsheet. Kerää kurssilaisten raporteista käteviä tekniikoita. Kerää itse tekniikat ja komennot, älä pelkästään kuvaile. Muista lähdeviitteet. Tee tiivis ja selkeä cheatsheet, josta löydät tarvittavat tiedot lipunryöstössä.
 
+## Sanakirja 
+cewl, lataa sivuston tekstit tiedostoon, voi antaa parametrejä
+[dokumentaatio](https://www.kali.org/tools/cewl/) 
+
+tr komennolla pilkkoo. 
+ - välilyönnit pois ```tr ' ' '\n'```
+ - erikoismerkit pois ```tr -d '".,()-:'```
+ - < > uusi tiedosto tr muutoksilla. ```tr ' ' '\n' <1.txt >2.txt```
+
 # Lähteet
 
  - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/#h7-hash
@@ -167,3 +176,4 @@ Ja uusi sanakirja toimi mahtavasti. Salaus on murrettu. Salasana on "Sertificate
  - Karvinen 2023: Crack File Password With John https://terokarvinen.com/2023/crack-file-password-with-john/
  - Rockyou sanakirja https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
  - tr komennon käyttö https://linux-packages.com/debian/package/pythonpy
+ - cewl https://www.kali.org/tools/cewl/
