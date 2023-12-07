@@ -150,8 +150,13 @@ Komentoni on valmis. Hashcatin komennossa ei voi putkittaa, joten joudun muokkaa
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/5c86a8e8-973e-4cac-a375-5e43bdd765a5)
 
+Aika laittaa uusi sanakirjani testiin. 
 
+```hashcat -m 1400 'f5bc7fcc7f5b3b6af7ff79e0feafad6d1a948b6a2c18de414993c1226be48c1f' sanakirja3.txt```
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/73484eee-5cef-4b96-af65-848e17e87344)
+
+Ja uusi sanakirja toimi mahtavasti. Salaus on murrettu. Salasana on "Sertificate". Käytetty salaus oli SHA2-256
 
 # d) Cheatsheet. Kerää kurssilaisten raporteista käteviä tekniikoita. Kerää itse tekniikat ja komennot, älä pelkästään kuvaile. Muista lähdeviitteet. Tee tiivis ja selkeä cheatsheet, josta löydät tarvittavat tiedot lipunryöstössä.
 
