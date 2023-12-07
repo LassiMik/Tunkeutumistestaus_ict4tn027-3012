@@ -160,6 +160,13 @@ Ja uusi sanakirja toimi mahtavasti. Salaus on murrettu. Salasana on "Sertificate
 
 # d) Cheatsheet. Kerää kurssilaisten raporteista käteviä tekniikoita. Kerää itse tekniikat ja komennot, älä pelkästään kuvaile. Muista lähdeviitteet. Tee tiivis ja selkeä cheatsheet, josta löydät tarvittavat tiedot lipunryöstössä.
 
+## Tiedustelu
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/4ccb0db6-99a7-4515-a330-b51291de04ba)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/3f605582-7f41-4ce3-833b-ce8a56140031)
+
+
 ## Sanakirja 
 cewl, lataa sivuston tekstit tiedostoon, voi antaa parametrejä
 [dokumentaatio](https://www.kali.org/tools/cewl/) 
