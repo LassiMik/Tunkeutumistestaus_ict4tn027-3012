@@ -44,6 +44,8 @@ Kaikki toimii.
 
 # b) John. Asenna Jumbo John ja testaa sen toimivuus murtamalla jonkin tiedoston salasana.
 
+Seuraan john the ripperin asennuksessa Tero Karvisen laatimia [ohjeita](https://terokarvinen.com/2023/crack-file-password-with-john/) 
+
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/58f00602-14c9-4580-89f4-d64b4d63650c)
 
 zlib-gst aiheutti jostakin syystä ongelmia asentaessa. Onnistuin asentamaan kaikki muut. 
@@ -58,7 +60,15 @@ configuroin vielä johnin
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/722229f6-b18d-40e5-bfa7-a451701dd148)
 
+Komento loi "make" komennon 
 
+```make -s clean && make -sj4```
+
+Ajoin vielä make komennon, joka compiloi koodin. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/5b4a0e35-694b-403a-ab12-a09fc3cd1bf3)
+
+John on nyt toimintavalmiina. 
 
 # c) Ratkaise tiiviste
 
