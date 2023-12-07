@@ -40,6 +40,7 @@ Käytän testissä samaa hashia, kuin ohjeissa. ```6b1628b016dff46e6fa35684be6ac
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/585ba1cf-92d9-4636-ba13-5d775678a076)
 
+Kaikki toimii. 
 
 # b) John. Asenna Jumbo John ja testaa sen toimivuus murtamalla jonkin tiedoston salasana.
 
