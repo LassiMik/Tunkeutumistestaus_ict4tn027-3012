@@ -54,6 +54,9 @@ Asensin vielä itse johnin.
 
 ```git clone --depth=1 https://github.com/openwall/john.git```
 
+configuroin vielä johnin 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/722229f6-b18d-40e5-bfa7-a451701dd148)
 
 
 
