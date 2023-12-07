@@ -108,6 +108,22 @@ Toimii!
 
 # c) Ratkaise tiiviste
 
+Tehtävässä annetaan itse tiiviste ```f5bc7fcc7f5b3b6af7ff79e0feafad6d1a948b6a2c18de414993c1226be48c1f```
+
+Sekä vihje: "Käytin hyvin yleistä ja tunnettua tiivistealgoritmia. Sanassa voi olla isoja kirjaimia, mutta ei erikoismerkkejä"
+
+Kokeilin ajaa hashid ohjelmistolla tiivisteen. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/07d5eb07-8356-4a07-b19f-5adf6472b48d)
+
+Ajan hashcatilla ensimmäisen tarjotun vaihtoehdon, eli SHA-256 salauksen
+
+```hashcat -m 0 'f5bc7fcc7f5b3b6af7ff79e0feafad6d1a948b6a2c18de414993c1226be48c1f' rockyou.txt```
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/e2effd71-3250-413b-bcbb-20a554f2c8b2)
+
+
+
 # d) Cheatsheet. Kerää kurssilaisten raporteista käteviä tekniikoita. Kerää itse tekniikat ja komennot, älä pelkästään kuvaile. Muista lähdeviitteet. Tee tiivis ja selkeä cheatsheet, josta löydät tarvittavat tiedot lipunryöstössä.
 
 # Lähteet
