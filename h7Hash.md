@@ -140,7 +140,10 @@ Putkittamalla saan sanakirjasta mieleisen. Aloitin laittamalla jokaisen sanan om
 
 ```cat sanakirja.txt|tr ' ' '\n'```
 
-Tiivisteessä ei voi myöskään olla erikoismerkkejä. Poistin erikoismerkit putkittamalla ```|tr -d '".,()-:'```
+Tiivisteessä ei voi myöskään olla erikoismerkkejä. Poistin erikoismerkit putkittamalla 
+
+```|tr -d '".,()-:'```
+
 
 # d) Cheatsheet. Kerää kurssilaisten raporteista käteviä tekniikoita. Kerää itse tekniikat ja komennot, älä pelkästään kuvaile. Muista lähdeviitteet. Tee tiivis ja selkeä cheatsheet, josta löydät tarvittavat tiedot lipunryöstössä.
 
