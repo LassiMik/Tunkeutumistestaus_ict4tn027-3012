@@ -70,6 +70,42 @@ Ajoin vielä make komennon, joka compiloi koodin.
 
 John on nyt toimintavalmiina. 
 
+Kokeilen vielä murtaa johnilla jonkin zip tiedoston salauksen. 
+
+Asensin testitiedoston
+
+```wget https://TeroKarvinen.com/2023/crack-file-password-with-john/tero.zip```
+
+Tiedosto on suojattu salasanalla.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/f1c935c0-d337-4aee-917a-b9c5ba44f8b5)
+
+zip tiedostosta pitää tehdä zip.hash tiedosto, jotta john voi murtaa sen. Onneksi johnilla on tapa tehdä se. 
+
+```$HOME/john/run/zip2john tero.zip >tero.zip.hash```
+
+Komento luo uuden tiedoston tero.zip.hash.
+
+Tarkastelin vielä cat komennolla tiedoston sisältöä. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/abd12eec-026e-4174-a48b-3cc1a39e8007)
+
+Seuraavaksi laitan johnin hyökkäämään tiedoston kimppuun.
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/edd90be7-66ba-4236-939c-c8fe9fe2bf95)
+
+Ymmärsin että john käyttää valmiiden sanojen salasanatiivisteitä sanakirjasta ja vertailee niitä tiedoston salasanatiivisteeseen. Tämä on vain arvaus. 
+
+Salasana on kätevästi eri värinen kuin muu teksti, joten se osuu silmään
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/8b2cb814-ae23-41e7-bdeb-dc22628a2281)
+
+Kokeilen vielä salasanaa unzip komennolla. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/bf66da67-835f-4efb-b4fc-d1344b8dfdc9)
+
+Toimii!
+
 # c) Ratkaise tiiviste
 
 # d) Cheatsheet. Kerää kurssilaisten raporteista käteviä tekniikoita. Kerää itse tekniikat ja komennot, älä pelkästään kuvaile. Muista lähdeviitteet. Tee tiivis ja selkeä cheatsheet, josta löydät tarvittavat tiedot lipunryöstössä.
