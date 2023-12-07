@@ -144,6 +144,14 @@ Tiivisteessä ei voi myöskään olla erikoismerkkejä. Poistin erikoismerkit pu
 
 ```|tr -d '".,()-:'```
 
+Komentoni on valmis. Hashcatin komennossa ei voi putkittaa, joten joudun muokkaamaan sanakirjatiedostoa. Tämän olisi varmaan voinut tehdä helpommin, mutta käytin linuxin redirectoreja. 
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/c636415c-82b9-4adb-8b95-e0fb5dfc37ae)
+
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/5c86a8e8-973e-4cac-a375-5e43bdd765a5)
+
+
+
 
 # d) Cheatsheet. Kerää kurssilaisten raporteista käteviä tekniikoita. Kerää itse tekniikat ja komennot, älä pelkästään kuvaile. Muista lähdeviitteet. Tee tiivis ja selkeä cheatsheet, josta löydät tarvittavat tiedot lipunryöstössä.
 
@@ -153,3 +161,4 @@ Tiivisteessä ei voi myöskään olla erikoismerkkejä. Poistin erikoismerkit pu
  - Karvinen 2022: Cracking Passwords with Hashcat https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
  - Karvinen 2023: Crack File Password With John https://terokarvinen.com/2023/crack-file-password-with-john/
  - Rockyou sanakirja https://github.com/danielmiessler/SecLists/raw/master/Passwords/Leaked-Databases/rockyou.txt.tar.gz
+ - tr komennon käyttö https://linux-packages.com/debian/package/pythonpy
