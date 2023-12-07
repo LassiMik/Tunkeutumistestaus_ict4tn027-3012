@@ -176,6 +176,14 @@ tr komennolla pilkkoo.
  - erikoismerkit pois ```tr -d '".,()-:'```
  - < > uusi tiedosto tr muutoksilla. ```tr ' ' '\n' <1.txt >2.txt```
 
+## Välimiesproxy 
+
+avaus
+
+```java -jar zap/ZAP_2.14.0/zap-2.14.0.jar```
+
+injektiot 
+
 # Lähteet
 
  - Tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/#h7-hash
