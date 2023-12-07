@@ -44,6 +44,19 @@ Kaikki toimii.
 
 # b) John. Asenna Jumbo John ja testaa sen toimivuus murtamalla jonkin tiedoston salasana.
 
+![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/58f00602-14c9-4580-89f4-d64b4d63650c)
+
+zlib-gst aiheutti jostakin syystä ongelmia asentaessa. Onnistuin asentamaan kaikki muut. 
+
+zlib-gst käytetään johnin zippi ominaisuutta varten. Toimiikohan ilman tätä?
+
+Asensin vielä itse johnin. 
+
+```git clone --depth=1 https://github.com/openwall/john.git```
+
+
+
+
 # c) Ratkaise tiiviste
 
 # d) Cheatsheet. Kerää kurssilaisten raporteista käteviä tekniikoita. Kerää itse tekniikat ja komennot, älä pelkästään kuvaile. Muista lähdeviitteet. Tee tiivis ja selkeä cheatsheet, josta löydät tarvittavat tiedot lipunryöstössä.
