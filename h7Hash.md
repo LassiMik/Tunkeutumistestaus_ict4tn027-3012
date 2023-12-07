@@ -182,7 +182,6 @@ avaus
 
 ```java -jar zap/ZAP_2.14.0/zap-2.14.0.jar```
 
-injektiot 
 
 # Lähteet
 
