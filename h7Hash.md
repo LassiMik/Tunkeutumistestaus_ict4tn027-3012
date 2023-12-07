@@ -11,6 +11,10 @@
 
 ## Karvinen 2023: Crack File Password With John
 
+ - Hashcat on salasanoja varten, mutta John the ripper on zip tiedostojen salausta varten.
+ - Jotta john voi murtaa mitään, tiedostosta pitää tehdä zip.hash tiedosto. Johnilla on komento tätä varten. ```/john/run/zip2john tiedosto.zip >tiedosto.zip.hash```
+ - zip.hash tiedoston john voi murtaa ```/john/run/john tiedosto.zip.hash```
+ - Murtaminen antaa zip tiedoston salasanan. Nyt tiedoston voi purkaa unzipillä.
 
 # a) Hashcat. Asenna Hashcat ja testaa sen toimivuus ratkaisemalla tiiviste.
 
