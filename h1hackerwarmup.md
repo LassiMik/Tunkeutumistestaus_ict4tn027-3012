@@ -174,6 +174,8 @@ crt.sh sivustolla voi hakea tiedusteltavan kohteen nimellä. Esimerkiksi, jos ha
 
 ## lähteet
 
+ - tehtävät https://terokarvinen.com/2023/eettinen-hakkerointi-2023/#h1-hacker-warmup
+
  - miten avata tiedosto, jonka nimi on "-" https://stackoverflow.com/questions/42187323/how-to-open-a-dashed-filename-using-terminal
 
  - SQL injektiot https://portswigger.net/web-security/sql-injection#retrieving-hidden-data
