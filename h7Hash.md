@@ -166,6 +166,8 @@ Ja uusi sanakirja toimi mahtavasti. Salaus on murrettu. Salasana on "Sertificate
 
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/3f605582-7f41-4ce3-833b-ce8a56140031)
 
+Lähteet : 
+[Tero Karvinen ](https://terokarvinen.com/2023/eettinen-hakkerointi-2023/)
 
 ## Sanakirja 
 cewl, lataa sivuston tekstit tiedostoon, voi antaa parametrejä
@@ -176,12 +178,49 @@ tr komennolla pilkkoo.
  - erikoismerkit pois ```tr -d '".,()-:'```
  - < > uusi tiedosto tr muutoksilla. ```tr ' ' '\n' <1.txt >2.txt```
 
+Lähteet : 
+[LassiMik](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/blob/main/h2Sniff-n-Scan.md)
+[Tero Karvinen ](https://terokarvinen.com/2023/eettinen-hakkerointi-2023/)
+
 ## Välimiesproxy 
 
 avaus
 
 ```java -jar zap/ZAP_2.14.0/zap-2.14.0.jar```
 
+Lähteet : 
+[LassiMik](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/blob/main/h4TotallyLegitSertificate.md)
+
+
+## msf console 
+
+ - avaus ```sudo msfdb init```
+ - hyökkäysten etsiminen ```search hakusana```, valitseminen ja lisäinfo ```use 0 / info 0```
+ - kohde johon suorietaan hyökkäys ```set rhosts ip-osoite```
+ - hyökkäyksen aloitus ```exploit```
+ - nmap msfdb:ssä ```db_nmap```
+
+Lähteet :
+[LassiMik](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/blob/main/h3labkid.md)
+
+## nmap
+
+ - komento ```sudo nmap ip-osoite```
+ - ```-p-``` kaikkien porttien skannaus
+ - ```-A``` laajempi skannaus, palvelin ja version tunnistus.
+
+Lähteet :
+[LassiMik](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/blob/main/h2Sniff-n-Scan.md)
+
+## fuff 
+
+ - Käyttö ```./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ``` -w osoittaa sanalistan, jonka avulla fuffataan. -u kohteen. 
+ - fs filtteri ```./ffuf -w common.txt -u http://127.0.0.2:8000/FUZZ -fs 154``` voi käyttää esim. "sivua ei löytynyt" vastausten filtteröintiin. 
+ - ```-recursion``` Komento käskee hakua tehdä aina uusi haku jos ensimmäinen haku löytää kansion. -recurision skannaa kaikki tiedostot, mitä eteen tulee. 
+ - ```-e tiedostopääte``` tarkentaa tiedostopäätteen mitä etsitään.
+
+Lähteet :
+[LassiMik](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/blob/main/h2Sniff-n-Scan.md)
 
 # Lähteet
 
