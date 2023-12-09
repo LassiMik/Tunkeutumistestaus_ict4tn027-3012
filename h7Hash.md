@@ -167,6 +167,7 @@ Ja uusi sanakirja toimi mahtavasti. Salaus on murrettu. Salasana on "Sertificate
 ![image](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/assets/112076377/3f605582-7f41-4ce3-833b-ce8a56140031)
 
 Lähteet : 
+
 [Tero Karvinen ](https://terokarvinen.com/2023/eettinen-hakkerointi-2023/)
 
 ## Sanakirja 
@@ -179,7 +180,9 @@ tr komennolla pilkkoo.
  - < > uusi tiedosto tr muutoksilla. ```tr ' ' '\n' <1.txt >2.txt```
 
 Lähteet : 
+
 [LassiMik](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/blob/main/h2Sniff-n-Scan.md)
+
 [Tero Karvinen ](https://terokarvinen.com/2023/eettinen-hakkerointi-2023/)
 
 ## Välimiesproxy 
@@ -189,6 +192,7 @@ avaus
 ```java -jar zap/ZAP_2.14.0/zap-2.14.0.jar```
 
 Lähteet : 
+
 [LassiMik](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/blob/main/h4TotallyLegitSertificate.md)
 
 
@@ -201,6 +205,7 @@ Lähteet :
  - nmap msfdb:ssä ```db_nmap```
 
 Lähteet :
+
 [LassiMik](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/blob/main/h3labkid.md)
 
 ## nmap
@@ -210,6 +215,7 @@ Lähteet :
  - ```-A``` laajempi skannaus, palvelin ja version tunnistus.
 
 Lähteet :
+
 [LassiMik](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/blob/main/h2Sniff-n-Scan.md)
 
 ## fuff 
@@ -220,6 +226,7 @@ Lähteet :
  - ```-e tiedostopääte``` tarkentaa tiedostopäätteen mitä etsitään.
 
 Lähteet :
+
 [LassiMik](https://github.com/LassiMik/Tunkeutumistestaus_ict4tn027-3012/blob/main/h2Sniff-n-Scan.md)
 
 # Lähteet
